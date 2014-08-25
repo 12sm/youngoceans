@@ -259,6 +259,9 @@ html[xmlns] .slides {display: block;}
    line-height: 0;
    height: 0;
 }
+.owl-item{
+   padding: 10px;
+}
 /* display none until init */
 .owl-carousel{
    display: none;
