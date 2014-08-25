@@ -48,7 +48,7 @@ a:hover, a i:hover{
    ========================================================================== */
 
 .banner {background: rgba(0,0,0,.6); }
-header .navbar-default .navbar-nav>li>a{
+header.navbar-default .navbar-nav>li>a{
    text-transform: uppercase;
    color: #fff;
    font-size: 18px;
