@@ -41,7 +41,7 @@ var Roots = {
     init: function(){
       $(".disco-carou").owlCarousel({
 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: false, //Set AutoPlay to 3 seconds
 
       items : 4,
       itemsDesktop : [1199,3],
