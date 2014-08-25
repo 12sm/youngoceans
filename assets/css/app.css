@@ -344,10 +344,7 @@ html[xmlns] .slides {display: block;}
 h1 {
 font-size: 24px;
 }
-div.navbar-header {
-margin: 0 auto!important;
-width: 50%;
-}
+
  }
 
 /* Medium devices (desktops, 992px and up) */
