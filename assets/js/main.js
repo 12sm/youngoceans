@@ -24,6 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
+      $.okvideo({ source: 'https://vimeo.com/103495412' })
     }
   },
   // Home page
