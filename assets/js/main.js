@@ -34,7 +34,8 @@ var Roots = {
       $('#home-slider').flexslider({
         animation: 'fade',
         animationSpeed: 300,
-        directionNav: true
+        directionNav: true,
+        controlNav: false
       });
     }
   },
@@ -56,7 +57,8 @@ var Roots = {
       $('.disco-slider').flexslider({
         animation: 'slide',
         animationSpeed: 300,
-        directionNav: true
+        directionNav: true,
+        controlNav: false
       });
     }
   },
