@@ -37,6 +37,19 @@ var Roots = {
       });
     }
   },
+  discography: {
+    init: function(){
+      $(".disco-carou").owlCarousel({
+
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+
+  });
+    }
+  }
   // About us page, note the change from about-us to about_us.
   about_us: {
     init: function() {
