@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
-      $.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
+      //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
     }
   },
   // Home page
