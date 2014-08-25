@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa {
+.fa, .flex-nav {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
