@@ -48,7 +48,11 @@ a:hover, a i:hover{
    padding: 25px 0;
 }
 .col {margin:0 1%;}
-
+p {
+font-size: 16px;
+font-weight: 800;
+letter-spacing: 6px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -343,7 +347,9 @@ html[xmlns] .slides {display: block;}
 @media (min-width: 768px) {
 .col {margin:0 5%;}
 h1 {
-font-size: 24px;
+font-size: 40px;
+font-weight: 800;
+letter-spacing: 26px;
 }
 ul#menu-primary-navigation {
 margin-top: 10px;
