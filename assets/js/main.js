@@ -50,6 +50,15 @@ var Roots = {
   });
     }
   },
+  discography_singles: {
+    init: function(){
+      $('.disco-slider').flexslider({
+        animation: 'slide',
+        animationSpeed: 300
+      });
+  });
+    }
+  },
   // About us page, note the change from about-us to about_us.
   about_us: {
     init: function() {
