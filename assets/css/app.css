@@ -334,7 +334,7 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.col {margin:0 10%;}
+.col {margin:0 5%;}
 h1 {
 font-size: 24px;
 }
