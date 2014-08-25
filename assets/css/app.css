@@ -358,6 +358,9 @@ letter-spacing: 26px;
 ul#menu-primary-navigation {
 margin-top: 10px;
 }
+.slide-pad{
+   padding: 25px;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
