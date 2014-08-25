@@ -40,3 +40,26 @@
 	[/wpv-no-items-found]
 [wpv-layout-end]
 
+
+<!---------- DISCOGRAPHY | PAGE -------------->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class='row'>
+		<wpv-loop>
+			<div class="col-sm-3">
+				<a href="[wpv-post-url]">
+					<div class="img-container">
+						<img src="[wpv path to img]" class="img-responsive">
+					</div>
+					<h4>[wpv-post-title]</h4>
+				</a>
+			</div>
+		</wpv-loop>
+	</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
