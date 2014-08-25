@@ -33,7 +33,8 @@ var Roots = {
       // JavaScript to be fired on the home page
       $('#home-slider').flexslider({
         animation: 'fade',
-        animationSpeed: 300
+        animationSpeed: 300,
+        directionNav: true
       });
     }
   },
@@ -54,7 +55,8 @@ var Roots = {
     init: function(){
       $('.disco-slider').flexslider({
         animation: 'slide',
-        animationSpeed: 300
+        animationSpeed: 300,
+        directionNav: true
       });
     }
   },
