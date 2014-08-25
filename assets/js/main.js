@@ -49,7 +49,7 @@ var Roots = {
 
   });
     }
-  }
+  },
   // About us page, note the change from about-us to about_us.
   about_us: {
     init: function() {
