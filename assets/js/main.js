@@ -55,12 +55,17 @@ var Roots = {
   },
   photography: {
     init: function(){
+      function liquidWrap(){
+        $('.col-sm-3 > a').wrap('<div class="img-pad"></div>');
+        $('.img-pad').imgLiquid();
+      };
+
       $('.instagram-grid').embedagram({
         instagram_id: 179338873,
         thumb_width: 306,
         limit: 12,
-        wrap_tag: 'div class=col-sm-3',
-        success: function(){ $('.col-sm-3').imgLiquid();}
+        wrap_tag: 'div class=col-sm-3 photo-grid',
+        success: liquidWrap
       });
     }
   },
