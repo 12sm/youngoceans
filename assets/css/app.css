@@ -429,6 +429,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .disco-slider {
+height: 550px;
+}
 .content{
 padding: 2% 0px;
 }
