@@ -136,7 +136,7 @@ white-space: normal;
 /* ==========================================================================
    Discography
    ========================================================================== */
-a.js-wpv-pagination-next-link {
+a.js-wpv-pagination-next-link, a.js-wpv-pagination-previous-link{
 position: absolute;
 top: 50%;
 font-size: 58px;
