@@ -56,7 +56,7 @@ var Roots = {
   photography: {
     init: function(){
       function liquidWrap(){
-        $('.photo-grid > a').wrap('<div class="img-pad"></div>');
+        $('.col-sm-3 > a').wrap('<div class="img-pad"></div>');
         $('.img-pad').imgLiquid();
       };
 
