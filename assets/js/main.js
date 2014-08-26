@@ -63,7 +63,7 @@ var Roots = {
       $('.instagram-grid').embedagram({
         instagram_id: 179338873,
         thumb_width: 306,
-        limit: 12,
+        limit: 20,
         wrap_tag: 'div class=col-sm-3',
         success: liquidWrap
       });
@@ -71,12 +71,12 @@ var Roots = {
   },
   discography_singles: {
     init: function(){
-      $('.disco-slider').flexslider({
+     /* $('.disco-slider').flexslider({
         animation: 'slide',
         animationSpeed: 300,
         directionNav: true,
         controlNav: false
-      });
+      });*/
     }
   },
 
