@@ -145,9 +145,14 @@ white-space: normal;
 .hentry .entry-content { }
 .hentry footer { }
 
-.blog-img{
-   width: 275px;
-   height: 275px;
+.blog-img {
+width: 225px;
+height: 250px;
+margin: 0 auto;
+}
+.blog-pad {
+height: 400px;
+text-align: center;
 }
 /* ==========================================================================
    Videos
