@@ -68,7 +68,7 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   },
-   videos: {
+   video: {
     init: function() {
       // JavaScript to be fired on the about us page
       $('.vid-thumb').imgLiquid();
