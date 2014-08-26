@@ -33,7 +33,7 @@ var Roots = {
       // JavaScript to be fired on the home page
       $('#home-slider').flexslider({
         animation: 'fade',
-        animationSpeed: 300,
+        animationSpeed: 500,
         directionNav: true,
         controlNav: false
       });
