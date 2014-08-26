@@ -96,3 +96,27 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+
+<!-------------- BLOG ROLL ---------------------->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="row">
+		<wpv-loop>
+			<div class="col-sm-3">
+				<a href="[wpv-post-url]">
+					<div class="blog-pad">
+						[wpv-post-thumbnail size=thumbnail]
+						<h3>[wpv-post-title]</h3>
+					</div>
+				</a>
+			</div>
+		</wpv-loop>
+	</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
