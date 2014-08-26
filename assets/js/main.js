@@ -67,6 +67,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the about us page
     }
+  },
+   videos: {
+    init: function() {
+      // JavaScript to be fired on the about us page
+      $('.vid-thumb').imgLiquid();
+    }
   }
 };
 
