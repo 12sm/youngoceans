@@ -157,8 +157,20 @@ white-space: normal;
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
-
+.topspin-widget.topspin-widget-email-for-media {
+overflow: hidden;
+display: inline-block;
+margin-top: 10px;
+}
+.floatright{
+   text-align: center;
+}
+div#social {
+padding-top: 30px;
+}
+#menu-socials,.credits{
+   display: inline;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
@@ -366,11 +378,26 @@ margin-top: 10px;
    margin-top: 100px;
 }
  }
-
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+.topspin-widget.topspin-widget-email-for-media {
+height: 50px;
+}
+div#social {
+padding-top: 30px;
+}
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 .content{
 padding: 2% 0px;
+}
+div#social {
+padding-top: 15px;
+}
+.topspin-widget.topspin-widget-email-for-media {
+height: 32px;
 }
  }
 
