@@ -53,6 +53,15 @@ var Roots = {
   });
     }
   },
+  photography: {
+    init: function(){
+      $('.instagram-grid').embedagram({
+        instagram_id: 179338873,
+        thumb_width: 306,
+        limit: 12
+      });
+    }
+  },
   discography_singles: {
     init: function(){
       $('.disco-slider').flexslider({
