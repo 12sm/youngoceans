@@ -58,7 +58,8 @@ var Roots = {
       $('.instagram-grid').embedagram({
         instagram_id: 179338873,
         thumb_width: 306,
-        limit: 12
+        limit: 12,
+        wrap_tag: '<div class=col-sm-3>'
       });
     }
   },
