@@ -29,9 +29,9 @@ var Roots = {
 
       //body class update
       $('a').click(function(){
-        $link = this.attr('href');
+        link = $this.attr('href');
         console.log(link);
-      })
+      });
     }
   },
   // Home page
