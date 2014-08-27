@@ -33,7 +33,7 @@ var Roots = {
         link = $(this).attr('href').split('/');
         $('body').removeAttr('class');
         $('body').addClass(link[1]);
-        if (link[1] = ""){console.log('true');}
+        if (link.length < 3){console.log('true');}
       });
 
       function footerResize(height){
