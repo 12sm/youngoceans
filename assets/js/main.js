@@ -29,7 +29,7 @@ var Roots = {
 
       //body class update
       $('a').click(function(){
-        link = $this.attr('href');
+        link = $('a', this).attr('href');
         console.log(link);
       });
     }
