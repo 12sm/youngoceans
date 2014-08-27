@@ -38,6 +38,7 @@ var Roots = {
         directionNav: true,
         controlNav: false
       });
+      window.alert = function() {console.log('no alert')};
     }
   },
   discography: {
