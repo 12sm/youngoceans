@@ -26,6 +26,12 @@ var Roots = {
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
       $('.vid-thumb').imgLiquid();
+
+      //body class update
+      $('a').onclick(function(){
+        $link = this.attr('href');
+        console.log(link);
+      })
     }
   },
   // Home page
