@@ -123,7 +123,8 @@ var UTIL = {
   }
 };
 //duplicate this and fire it on Ajax calbacks
-$(document).ready(UTIL.loadEvents);
+debugger;
+//$(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
 
