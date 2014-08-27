@@ -18,7 +18,7 @@
   ?>-
 
   <div class="wrap container" role="document" >
-    <div class="content row" id='content'>
+    <div class="content row" id='ajaxcontent'>
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
