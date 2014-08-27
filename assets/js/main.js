@@ -39,6 +39,7 @@ var Roots = {
         $('.content').css('min-height', height);
       }
       $(window).resize(function(){
+        height = 0;
         height = $(document).height();
         console.log(height);
         footerResize(height);
