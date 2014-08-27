@@ -15,7 +15,7 @@
     } else {
       get_template_part('templates/header');
     }
-  ?>-
+  ?>
 
   <div class="wrap container" role="document" >
     <div class="content row" id="ajaxcontent">
