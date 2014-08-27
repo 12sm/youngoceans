@@ -30,7 +30,8 @@ var Roots = {
       //body class update
       $('a').click(function(){
         link = $(this).attr('href').split('/');
-        console.log(link);
+        $('body').removeAttr('class');
+        $('body').addClass(link[1]);
       });
     }
   },
