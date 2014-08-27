@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body id='bodytag' <?php body_class(); ?>>
+<body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
