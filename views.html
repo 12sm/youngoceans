@@ -120,3 +120,12 @@
 		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--reload scripts-->
+<script>
+var bodyClass = jQuery(dataa).find(body).prop('class');
+console.log(bodyClass);
+for(i=0; i < bodyClass.length; i++){
+jQuery(body).addClass(bodyClass[i]);
+}
+</script>
