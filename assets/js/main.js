@@ -28,7 +28,7 @@ var Roots = {
       $('.vid-thumb').imgLiquid();
 
       //body class update
-      $('a').onclick(function(){
+      $('a').click(function(){
         $link = this.attr('href');
         console.log(link);
       })
