@@ -32,8 +32,12 @@ var Roots = {
       $('a').click(function(){
         link = $(this).attr('href').split('/');
         $('body').removeAttr('class');
+
+        if ( link.length < 3){
+          $('body').addClass('home');
+        } else{
         $('body').addClass(link[1]);
-        if ( link.length < 3){console.log('true');}
+        }
       });
 
       function footerResize(height){
