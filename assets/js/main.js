@@ -40,7 +40,7 @@ var Roots = {
       }
       $(window).resize(function(){
         height = 0;
-        height = $(document).height();
+        height = $(window).height();
         console.log(height);
         footerResize(height);
       });
