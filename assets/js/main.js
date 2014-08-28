@@ -22,7 +22,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      //discoSlider();
+
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
@@ -64,6 +64,11 @@ var Roots = {
         controlNav: false
       });
       window.alert = function() {console.log('no alert')};
+    }
+  },
+   discographies: {
+    init: function() {
+      discoSlider();
     }
   },
   discography: {
