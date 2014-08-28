@@ -4,6 +4,7 @@
 function pagenavi_paged($q) {
 if (get_query_var('paged')) {
 $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+$wp_query = new WP_Query(array('post_type' => 'discography',
 $q->set('paged', $paged);
 }
 }
