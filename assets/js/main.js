@@ -22,7 +22,6 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      console.log('main.js loaded');
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
