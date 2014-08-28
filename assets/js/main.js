@@ -22,6 +22,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+      TEST();
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
@@ -69,7 +70,6 @@ var Roots = {
       $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
-
       items : 4,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3]
