@@ -210,6 +210,7 @@ padding-top: 30px;
 #menu-socials,.credits{
    display: inline;
 }
+.wpv-pagination, .wpv-pagination, .wpv-pagination-preload-images, .wpv-pagination-preload-pages {visibility: visible!important;}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
