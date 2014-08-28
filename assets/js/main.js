@@ -22,7 +22,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      discoSlider();
+      //discoSlider();
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
