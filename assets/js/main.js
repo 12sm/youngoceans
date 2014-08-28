@@ -39,7 +39,7 @@ var Roots = {
         $('body').addClass(link[1]);
         }
       });
-
+      footerResize($(window).height());
       function footerResize(height){
         $('.content').css('min-height', height);
       };
