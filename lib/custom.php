@@ -1,5 +1,12 @@
 <?php
 
+add_shortcode('wpv-next-disco', 'next_post');
+function next_post(){
+	$next_post = get_next_post();
+	if (!empty( $next_post )): ?>
+  	<a href="<?php echo get_permalink( $next_post->ID ); ?>"><i class='fa fa-angle-right'></i></a>
+<?php endif;
+	}
 
 add_shortcode('wpv-post-index', 'views_index');
 function views_index() {
