@@ -37,6 +37,7 @@ var Roots = {
           $('body').addClass('home');
         } else{
         $('body').addClass(link[1]);
+        $('body').addClass(link[3]);
         }
       });
       footerResize($(window).height());
