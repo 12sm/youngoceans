@@ -3,7 +3,7 @@
 // Get the page number into wp_pagenavi
 function pagenavi_paged($q) {
   $types = (array)$q->get('post_type');
-  if (in_array('test', $types)) {
+  if (in_array('discographies', $types)) {
     $paged = get_query_var('paged') ? get_query_var('paged') : 1;
     $q->set('paged', $paged);
   }
