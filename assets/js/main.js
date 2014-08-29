@@ -69,7 +69,11 @@ var Roots = {
    discographies: {
     init: function() {
       //
-      eval(vidBG());
+      function vidBG(){
+                  debugger;
+                  //var video = $('.okvid')
+        $('.okvid').okvideo({ source: , volume: 0, adproof: true })
+      };
     }
   },
   discography: {
