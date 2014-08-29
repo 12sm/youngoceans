@@ -68,7 +68,8 @@ var Roots = {
   },
    discographies: {
     init: function() {
-      //discoSlider();
+      //
+      vidBG();
     }
   },
   discography: {
