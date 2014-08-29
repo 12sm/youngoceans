@@ -76,7 +76,7 @@ var Roots = {
                   debugger;
         $.okvideo({ source: url, volume: 0, adproof: true });
       };
-      vidBG(vidbg);
+      vidBG(vid);
     }
   },
   discography: {
