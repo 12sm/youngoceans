@@ -77,9 +77,6 @@ var Roots = {
    discographies: {
     init: function() {
       //
-
-      alert('discographies');
-      debugger;
       vid = $("#vidBG").text();
 
       if (vid != null) {
