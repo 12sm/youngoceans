@@ -29,6 +29,7 @@ var Roots = {
       $('.vid-thumb').imgLiquid();
 
       //body class update
+
       $('a').click(function(){
         link = $(this).attr('href').split('/');
         $('body').removeAttr('class');
@@ -40,10 +41,13 @@ var Roots = {
         $('body').addClass(link[3]);
         }
       });
+
       footerResize($(window).height());
       function footerResize(height){
         $('.content').css('min-height', height);
       };
+
+
       $(window).resize(function(){
         height = 0;
         height = $(window).height() - 98;
@@ -72,9 +76,11 @@ var Roots = {
       alert('discographies');
       var vid = $("#vidBG").text();
       function bgVid(url){
-        $.okvideo({ source: url, volume: 0, adproof: true });
+      $.okvideo({ source: url, volume: 0, adproof: true });
       };
-      bgVid(vid);
+      if (vid != null) {
+        bgVid(vid);
+      };
     }
   },
   discography: {
