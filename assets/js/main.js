@@ -70,10 +70,11 @@ var Roots = {
     init: function() {
       //
       console.log('discographies');
+      debugger;
       var vidbg = $('.okvid').innerhtml();
       function vidBG(url){
                   debugger;
-        $.okvideo({ source: url, volume: 0, adproof: true })
+        $.okvideo({ source: url, volume: 0, adproof: true });
       };
       vidBG(vidbg);
     }
