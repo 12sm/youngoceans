@@ -22,6 +22,12 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+       var vid = $("#vidBG").text();
+      function bgVid(url){
+                  debugger;
+        $.okvideo({ source: url, volume: 0, adproof: true });
+      };
+      bgVid(vid);
 
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
@@ -71,12 +77,7 @@ var Roots = {
       //
       console.log('discographies');
       debugger;
-      var vid = $("#vidBG").text();
-      function bgVid(url){
-                  debugger;
-        $.okvideo({ source: url, volume: 0, adproof: true });
-      };
-      bgVid(vid);
+
     }
   },
   discography: {
