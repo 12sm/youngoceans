@@ -72,11 +72,11 @@ var Roots = {
       console.log('discographies');
       debugger;
       var vid = document.getElementById("#vidBG").html;
-      function vidBG(url){
+      function bgVid(url){
                   debugger;
         $.okvideo({ source: url, volume: 0, adproof: true });
       };
-      vidBG(vid);
+      bgVid(vid);
     }
   },
   discography: {
