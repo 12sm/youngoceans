@@ -16,6 +16,10 @@
 
 (function($) {
 
+  var bgVid;
+  function bgVid(url){
+    $.okvideo({ source: url, volume: 0, adproof: true });
+  };
 // Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
@@ -77,9 +81,7 @@ var Roots = {
       alert('discographies');
       debugger;
       var vid = $("#vidBG").text();
-      function bgVid(url){
-      $.okvideo({ source: url, volume: 0, adproof: true });
-      };
+
       if (vid != null) {
         bgVid(vid);
       };
