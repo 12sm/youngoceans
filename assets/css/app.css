@@ -213,6 +213,7 @@ text-align: center;
 overflow: hidden;
 display: inline-block;
 margin-top: 10px;
+position: relative;
 }
 .floatright{
    text-align: center;
@@ -445,9 +446,7 @@ padding-top: 30px;
    .disco-slider {
 height: 550px;
 }
-.discographies.content{
-padding: 15% 0px;
-}
+
 div#social {
 padding-top: 15px;
 }
@@ -458,4 +457,9 @@ height: 32px;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+.discographies .content{
+padding-top: 5%;
+}
+
+ }
