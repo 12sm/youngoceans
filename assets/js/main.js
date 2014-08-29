@@ -69,6 +69,7 @@ var Roots = {
    discographies: {
     init: function() {
       //
+      console.log('discographies');
       var vidbg = $('.okvid').innerhtml();
       function vidBG(url){
                   debugger;
