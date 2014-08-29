@@ -71,7 +71,7 @@ var Roots = {
       //
       console.log('discographies');
       debugger;
-      var vidbg = $('.okvid').innerhtml();
+      var vidBG = document.getElementById("#vidBG").innerHTML;
       function vidBG(url){
                   debugger;
         $.okvideo({ source: url, volume: 0, adproof: true });
