@@ -71,8 +71,8 @@ var Roots = {
       //
       function vidBG(){
                   debugger;
-                  //var video = $('.okvid')
-        $('.okvid').okvideo({ volume: 0, adproof: true })
+                  var video = $('.okvid').innerhtml();
+        $.okvideo({ source: video volume: 0, adproof: true })
       };
     }
   },
