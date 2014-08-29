@@ -414,7 +414,7 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.col {margin:0 5%;}
+.col { margin:0 5%; }
 h1 {
 font-size: 40px;
 font-weight: 800;
@@ -445,7 +445,7 @@ padding-top: 30px;
    .disco-slider {
 height: 550px;
 }
-.content{
+.discographies.content{
 padding: 15% 0px;
 }
 div#social {
@@ -454,7 +454,8 @@ padding-top: 15px;
 .topspin-widget.topspin-widget-email-for-media {
 height: 32px;
 }
- }
+
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
