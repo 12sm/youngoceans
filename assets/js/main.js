@@ -72,7 +72,7 @@ var Roots = {
       function vidBG(){
                   debugger;
                   var video = $('.okvid').innerhtml();
-        $.okvideo({ source: video volume: 0, adproof: true })
+        $.okvideo({ source: video, volume: 0, adproof: true })
       };
     }
   },
