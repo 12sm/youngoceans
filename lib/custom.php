@@ -8,6 +8,15 @@ function next_disco(){
 <?php endif;
 	}
 
+add_shortcode('wpv-prev-disco', 'prev_disco');
+function prev_disco(){
+	$prev_post = get_previous_post();
+	if (!empty( $prev_post )): ?>
+  	<a href="<?php echo get_permalink( $next_post->ID ); ?>"><i class='fa fa-angle-left'></i></a>
+<?php endif;
+	}
+
+
 add_shortcode('wpv-post-index', 'views_index');
 function views_index() {
     global $WP_Views;
