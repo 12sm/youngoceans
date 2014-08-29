@@ -8,7 +8,7 @@ function next_disco(){
 <?php endif;
 	}
 
-add_shortcode('wpv-prev-disco', 'prev_disco');
+add_shortcode('wpv-next-disco', 'prev_disco');
 function prev_disco(){
 	$prev_post = get_previous_post();
 	if (!empty( $prev_post )): ?>
