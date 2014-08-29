@@ -73,7 +73,6 @@ var Roots = {
       debugger;
       var vid = $("#vidBG").text();
       function bgVid(url){
-                  debugger;
         $.okvideo({ source: url, volume: 0, adproof: true });
       };
       bgVid(vid);
