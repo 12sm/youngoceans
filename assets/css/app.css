@@ -151,13 +151,13 @@ a.wpv-filter-previous-link{
 a.disco-next {
 position: absolute;
 right: -25px;
-top: 50%;
+top: 25%;
 font-size: 36px;
 }
 a.disco-prev {
 position: absolute;
 left: -25px;
-top: 50%;
+top: 25%;
 font-size: 36px;
 }
 /* ==========================================================================
