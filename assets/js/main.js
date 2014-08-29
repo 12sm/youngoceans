@@ -71,9 +71,10 @@ var Roots = {
       //
       function vidBG(){
                   debugger;
-                  var video = $('.okvid').innerhtml();
-        $.okvideo({ source: video, volume: 0, adproof: true })
+                  var vidbg = $('.okvid').innerhtml();
+        $.okvideo({ source: vidbg, volume: 0, adproof: true })
       };
+      vidBG();
     }
   },
   discography: {
