@@ -148,7 +148,18 @@ a.wpv-filter-previous-link{
    left: -35px;
 }
 .wpv-pagination, .wpv-pagination, .wpv-pagination-preload-images, .wpv-pagination-preload-pages {visibility: visible!important;}
-
+a.disco-next {
+position: absolute;
+right: -25px;
+top: 50%;
+font-size: 36px;
+}
+a.disco-prev {
+position: absolute;
+left: -25px;
+top: 50%;
+font-size: 36px;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
