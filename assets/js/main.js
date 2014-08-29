@@ -69,7 +69,7 @@ var Roots = {
    discographies: {
     init: function() {
       //
-      vidBG();
+      eval(vidBG());
     }
   },
   discography: {
