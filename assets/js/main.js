@@ -69,12 +69,12 @@ var Roots = {
    discographies: {
     init: function() {
       //
-      function vidBG(){
+      var vidbg = $('.okvid').innerhtml();
+      function vidBG(url){
                   debugger;
-                  var vidbg = $('.okvid').innerhtml();
-        $.okvideo({ source: vidbg, volume: 0, adproof: true })
+        $.okvideo({ source: url, volume: 0, adproof: true })
       };
-      vidBG();
+      vidBG(vidbg);
     }
   },
   discography: {
