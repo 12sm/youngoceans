@@ -8,7 +8,7 @@
       </div>
       <div id="social" class="col-sm-6 social-nav">
           <div class="floatright">
-          <iframe src="https://embed.spotify.com/?uri=spotify:album:4FsibLgkGMV9AfbLtEqvxT" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://embed.spotify.com/?uri=spotify:album:4FsibLgkGMV9AfbLtEqvxT" width="200" height="54" frameborder="0" allowtransparency="true"></iframe>
     <?php
        if (has_nav_menu('social_navigation')) :
          wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
