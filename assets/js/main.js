@@ -16,7 +16,7 @@
 
 (function($) {
 
-  var bgVid;
+  var vid;
   function bgVid(url){
     $.okvideo({ source: url, volume: 0, adproof: true });
   };
@@ -80,7 +80,7 @@ var Roots = {
 
       alert('discographies');
       debugger;
-      var vid = $("#vidBG").text();
+      vid = $("#vidBG").text();
 
       if (vid != null) {
         bgVid(vid);
