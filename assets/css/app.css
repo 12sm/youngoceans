@@ -203,7 +203,7 @@ text-align: center;
    Footer
    ========================================================================== */
 
-.content-info { background: rgba(0,0,0, .5);  }
+.content-info { background: rgba(0,0,0, .5); position: fixed; bottom: 0; width: 100%; }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
