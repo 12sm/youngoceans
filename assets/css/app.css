@@ -7,6 +7,9 @@
    Base
    ========================================================================== */
 body { background: url(../img/bg.jpg) no-repeat; background-size: cover; }
+#okplayer {
+display: none!important;
+}
 h1,h2,h3,h4,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
@@ -434,6 +437,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   #okplayer {
+display: block!important;
+}
    body { background: rgb(175,175,175); }
    header.banner.navbar.navbar-default.navbar-static-top {
 position: relative;
