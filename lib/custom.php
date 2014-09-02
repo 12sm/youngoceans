@@ -1,6 +1,6 @@
 <?php
 
-add_shortcode('wpv-prev-disco', 'prev_disco');
+add_shortcode('wpv-prev-disco', 'next_disco');
 function next_disco(){
 	$next_post = get_next_post();
 	if (!empty( $next_post )): ?>
@@ -8,7 +8,7 @@ function next_disco(){
 <?php endif;
 	}
 
-add_shortcode('wpv-next-disco', 'next_disco');
+add_shortcode('wpv-next-disco', 'prev_disco');
 function prev_disco(){
 	$prev_post = get_previous_post();
 	if (!empty( $prev_post )): ?>
