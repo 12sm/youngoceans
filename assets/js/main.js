@@ -20,7 +20,9 @@
 
   var vid;
   function bgVid(url){
+    if($(window).width() >= 767){
     $.okvideo({ source: url, volume: 0, adproof: true });
+  }
   }
 // Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
