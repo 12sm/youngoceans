@@ -141,10 +141,10 @@ position: absolute;
 top: 50%;
 font-size: 58px;
 }
-a.wpv-filter-next-link{
+a.wpv-filter-previous-link{
    right: -35px;
 }
-a.wpv-filter-previous-link{
+a.wpv-filter-next-link{
    left: -35px;
 }
 .wpv-pagination, .wpv-pagination, .wpv-pagination-preload-images, .wpv-pagination-preload-pages {visibility: visible!important;}
