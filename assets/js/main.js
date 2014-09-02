@@ -46,7 +46,7 @@ var Roots = {
         }
       });
 
-      footerResize($(window).height());
+      /*footerResize($(window).height());
       function footerResize(height){
         $('.content').css('min-height', height);
       };
@@ -57,7 +57,7 @@ var Roots = {
         height = $(window).height() - 98;
         console.log(height);
         footerResize(height);
-      });
+      });*/
 
     }
   },
