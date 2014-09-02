@@ -25,6 +25,7 @@ margin-bottom: 25px;
 }
 h2{
    text-transform: uppercase;
+   font-size: 20px;
    font-size: 32px;
    font-weight: 800;
    letter-spacing: 10px;
@@ -437,6 +438,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   h2{
+   font-size: 32px;
+}
    #okplayer {
 display: block!important;
 }
