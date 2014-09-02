@@ -73,6 +73,11 @@ letter-spacing: 6px;
 body iframe#okplayer {
 opacity: .5;
 }
+#form_contact2 label {
+font-family: 'proxima-nova'!important;
+font-size: 22px;
+color: #fff;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
