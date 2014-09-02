@@ -1,1 +1,1 @@
-<?php echo do_shortcode('[wpv-view name="discography-page"]'); ?>
+<?php echo do_shortcode('[wpv-view name="discography-single"]'); ?>
