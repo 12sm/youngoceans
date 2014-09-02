@@ -14,6 +14,8 @@ h1,h2,h3,h4,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
    color: #fff;
+}
+h1,h2,h3,h4{
    text-transform: uppercase;
 }
 h1 {
