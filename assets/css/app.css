@@ -104,7 +104,7 @@ width: 100%;
 /* ==========================================================================
    Home
    ========================================================================== */
-.frm_submit input[type="submit"]:hover, .btn.btn-click:hover{
+div.frm_submit > input[type="submit"]:hover, .btn.btn-click:hover{
  color: rgba(255,255,255, 1) ;
    transition: color ease .3s;
    -webkit-transition: color ease .3s;
@@ -116,7 +116,7 @@ transition: border-color ease .3s;
    -moz-transition: border-color ease .3s;
    -o-transition: border-color ease .3s;
 }
-.btn.btn-click, .frm_submit input[type="submit"] {
+.btn.btn-click, div.frm_submit > input[type="submit"] {
 font-family: 'proxima-nova';
 font-weight: 500;
 color: #fff;
