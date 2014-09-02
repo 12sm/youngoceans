@@ -81,7 +81,7 @@ var Roots = {
       items : 4,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
-      itemsMobile [479, 2]
+      itemsMobile: [479, 2]
 
   });
 
@@ -94,9 +94,11 @@ var Roots = {
       autoPlay: false, //Set AutoPlay to 3 seconds
       items : 4,
       itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
+      itemsDesktopSmall : [979,3],
+      itemsMobile: [479, 2]
 
   });
+
     }
   },
   photography: {
@@ -117,14 +119,16 @@ var Roots = {
   },
   discographies: {
     init: function(){
-     $(".disco-carou").owlCarousel({
+    $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
       items : 4,
       itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
+      itemsDesktopSmall : [979,3],
+      itemsMobile: [479, 2]
 
   });
+
      vid = $("#vidBG").text();
 
       if (vid != null) {
