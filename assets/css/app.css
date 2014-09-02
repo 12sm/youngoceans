@@ -130,6 +130,7 @@ font-size: 14px!important;
 display: inline-block!important;
 clear: none!important;
 white-space: normal!important;
+background: transparent!important;
 }
 
 .btn-container{
