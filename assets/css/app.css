@@ -124,7 +124,7 @@ white-space: normal;
    Content
    ========================================================================== */
 
-.content {padding-bottom: 50px; }
+.content {padding-bottom: 50px; padding-top: 50px; }
 
 
 
