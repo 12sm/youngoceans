@@ -144,7 +144,7 @@ var Roots = {
   blog: {
     init: function() {
       // JavaScript to be fired on the about us page
-      $('.blog-img').imgLiquid();
+      $('.blog-img').imgLiquid({verticalAlign: 'top'});
     }
   },
 
