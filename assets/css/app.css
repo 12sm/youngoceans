@@ -78,6 +78,11 @@ a.navbar-brand {
 width: 225px;
 padding: 17px 5px;
 }
+header.banner.navbar.navbar-default.navbar-static-top {
+position: fixed;
+top: 0;
+width: 100%;
+}
 /* ==========================================================================
    Home
    ========================================================================== */
@@ -430,6 +435,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   header.banner.navbar.navbar-default.navbar-static-top {
+position: relative;
+}
    a.navbar-brand {
 width: initial;
 padding: initial;
