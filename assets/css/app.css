@@ -457,6 +457,33 @@ padding-top: 15px;
 height: 32px;
 }
 
+/*Artist grayscale*/
+.blog-img {
+   -webkit-transition: -webkit-filter .4s ease;
+     -moz-transition: -moz-filter .4s ease;
+      -ms-transition: -ms-filter .4s ease;
+          transition: -o-filter .4s ease, filter .4s ease;
+          -webkit-filter: grayscale(50%);
+         -moz-filter: grayscale(50%);
+         -ms-filter: grayscale(50%);
+         -o-filter: grayscale(50%);
+         filter: grayscale(50%);
+         filter: gray;
+  transition:opacity .4s ease;
+  opacity:.8;
+}
+
+.blog-img:hover {
+   -webkit-filter: grayscale(0%);
+         -moz-filter: grayscale(0%);
+         -ms-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+         filter: grayscale(0%);
+         filter: none;
+         filter: none;
+  opacity:1;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
