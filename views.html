@@ -69,25 +69,24 @@
 [wpv-layout-start]
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
-	<div class="row home-slider">
-		<div class="col-sm-10 col-sm-offset-1">
-		<ul class="slides">
+	<div class="row ">
+		<div class="col-sm-12 disco-slider">
 			<wpv-loop>
-				<li>
-					<div class="row">
-						<div class="col-sm-3">
+					<div class="row" id='[wpv-post-title]'>
+						<div class="col-sm-8 col-sm-push-3">
+							<h2>[wpv-post-title] ([types field="release-date" style="text" format="Y"][/types])</h2>
+							<p>[types field="description"][/types]</p>
+						</div>
+						<div class="col-sm-4 col-sm-pull-8">
 							<div class="spotify-player">
-								[SPOTIFY EMBED]
+								[types field="spotify"][/types]
 							</div>
 						</div>
-						<div class="col-sm-9">
-							<h2>[wpv-post-title]</h2>
-							<p>[DESCRIPTION]</p>
-						</div>
 					</div>
-				</li>
+              <h3>More Albums</h3>
+			[wpv-view name="discography-page" ids='[wpv-post-id]']
 			</wpv-loop>
-		</ul>
+
 		</div>
 	</div>
 	<!-- wpv-loop-end -->
@@ -120,6 +119,40 @@
 		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="row ">
+		<div class="col-sm-12 disco-slider">
+					<div class="row" id='[wpv-post-title]'>
+						<div class="col-sm-8 col-sm-push-3">
+							<h2>[wpv-post-title] ([types field="release-date" style="text" format="Y"][/types])</h2>
+							<p>[types field="description"][/types]</p>
+						</div>
+						<div class="col-sm-4 col-sm-pull-8">
+							<div class="spotify-player">
+								[types field="spotify"][/types]
+							</div>
+						</div>
+					</div>
+          <div class='disco-nav'>
+            [wpv-prev-disco]
+            [wpv-next-disco]
+          </div>
+          <h3>More Albums</h3>
+          [wpv-view name="DISCOGRAPHY | PAGE"]
+          <p class='hidden' id='vidBG'>
+            	[types field="background-video" output="raw"][/types]
+          </p>
+				<script>
+
+
+      </script>
+
+		</div>
+	</div>
+
 
 <!--reload scripts-->
 <script>
