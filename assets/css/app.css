@@ -6,7 +6,7 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-body { background: url(../img/bg.jpg) no-repeat; background-size: cover; }
+body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; }
 #okplayer {
 display: none!important;
 }
