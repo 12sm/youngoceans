@@ -14,6 +14,8 @@
  * remove or comment out: add_theme_support('jquery-cdn');
  * ======================================================================== */
 
+//Reload Codes for AJAX are found in the Wordpress dashboard in Settings under AAPL
+
 (function($) {
 
   var vid;
@@ -45,19 +47,6 @@ var Roots = {
         $('body').addClass(link[3]);
         }
       });
-
-      /*footerResize($(window).height());
-      function footerResize(height){
-        $('.content').css('min-height', height);
-      };
-
-
-      $(window).resize(function(){
-        height = 0;
-        height = $(window).height() - 98;
-        console.log(height);
-        footerResize(height);
-      });*/
 
     }
   },
