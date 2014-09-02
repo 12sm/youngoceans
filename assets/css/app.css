@@ -105,31 +105,31 @@ width: 100%;
    Home
    ========================================================================== */
 div.frm_submit > input[type="submit"]:hover, .btn.btn-click:hover{
- color: rgba(255,255,255, 1) ;
+ color: rgba(255,255,255, 1) !important;
    transition: color ease .3s;
    -webkit-transition: color ease .3s;
    -moz-transition: color ease .3s;
    -o-transition: color ease .3s;
-border-color: rgba(255,255,255, 1) ;
+border-color: rgba(255,255,255, 1) !important;
 transition: border-color ease .3s;
    -webkit-transition: border-color ease .3s;
    -moz-transition: border-color ease .3s;
    -o-transition: border-color ease .3s;
 }
 .btn.btn-click, div.frm_submit > input[type="submit"] {
-font-family: 'proxima-nova';
-font-weight: 500;
-color: #fff;
-padding: 10px 10px;
-border-color: rgba(255,255,255, .4);
-border: rgba(255,255,255, .4) solid 2px;
-border-radius: 0px;
-white-space: normal;
-letter-spacing: 6px;
-font-size: 14px;
-display: inline-block;
-clear: none;
-white-space: normal;
+font-family: 'proxima-nova'!important;
+font-weight: 500!important;
+color: #fff!important;
+padding: 10px 10px!important;
+border-color: rgba(255,255,255, .4)!important;
+border: rgba(255,255,255, .4) solid 2px!important;
+border-radius: 0px!important;
+white-space: normal!important;
+letter-spacing: 6px!important;
+font-size: 14px!important;
+display: inline-block!important;
+clear: none!important;
+white-space: normal!important;
 }
 
 .btn-container{
