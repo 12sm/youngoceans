@@ -133,6 +133,11 @@ var Roots = {
       itemsDesktopSmall : [979,3]
 
   });
+     vid = $("#vidBG").text();
+
+      if (vid != null) {
+        bgVid(vid);
+      };
     }
   },
 
