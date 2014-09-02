@@ -123,14 +123,16 @@ var Roots = {
       });
     }
   },
-  discography_singles: {
+  discographies: {
     init: function(){
-     /* $('.disco-slider').flexslider({
-        animation: 'slide',
-        animationSpeed: 300,
-        directionNav: true,
-        controlNav: false
-      });*/
+     $(".disco-carou").owlCarousel({
+
+      autoPlay: false, //Set AutoPlay to 3 seconds
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+
+  });
     }
   },
 
