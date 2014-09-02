@@ -42,6 +42,7 @@ a:hover, a i:hover{
    -webkit-transition: color ease .3s;
    -moz-transition: color ease .3s;
    -o-transition: color ease .3s;
+   text-decoration: none;
 }
 .center-block{
    margin: 0 auto;
