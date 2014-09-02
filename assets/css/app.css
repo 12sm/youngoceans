@@ -186,6 +186,12 @@ text-align: center;
 .blog-box{
    margin-bottom: 50px;
 }
+.addthis_sharing_toolbox {
+padding-top: 5px;
+border-bottom: 2px #fff solid;
+border-top: 2px #fff solid;
+margin-bottom: 5px;
+}
 /* ==========================================================================
    Photos
    ========================================================================== */
