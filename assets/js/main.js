@@ -83,6 +83,16 @@ var Roots = {
       if (vid != null) {
         bgVid(vid);
       };
+
+      $(".disco-carou").owlCarousel({
+
+      autoPlay: false, //Set AutoPlay to 3 seconds
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+
+  });
+
     }
   },
   discography: {
