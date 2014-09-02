@@ -438,6 +438,8 @@ html[xmlns] .slides {display: block;}
    header.banner.navbar.navbar-default.navbar-static-top {
 position: relative;
 }
+.content {padding-top: 0px; }
+
    a.navbar-brand {
 width: initial;
 }
