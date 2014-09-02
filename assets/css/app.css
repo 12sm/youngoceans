@@ -123,7 +123,9 @@ white-space: normal;
    width: 300px;
    text-align: center;
 }
-
+.vid-container {
+padding-top: 100px;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -439,6 +441,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .vid-container {
+      padding-top: 0px;
+   }
    h2{
    font-size: 32px;
 }
