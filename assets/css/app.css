@@ -141,20 +141,20 @@ position: absolute;
 top: 50%;
 font-size: 58px;
 }
-a.wpv-filter-previous-link{
+a.wpv-filter-next-link{
    right: -35px;
 }
-a.wpv-filter-next-link{
+a.wpv-filter-previous-link{
    left: -35px;
 }
 .wpv-pagination, .wpv-pagination, .wpv-pagination-preload-images, .wpv-pagination-preload-pages {visibility: visible!important;}
-a.disco-next {
+a.disco-prev {
 position: absolute;
 right: -25px;
 top: 25%;
 font-size: 36px;
 }
-a.disco-prev {
+a.disco-next {
 position: absolute;
 left: -25px;
 top: 25%;
