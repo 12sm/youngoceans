@@ -74,7 +74,10 @@ font-size: 16px;
 font-weight: 700;
 padding: 10px;
 }
-
+a.navbar-brand {
+width: 225px;
+padding: 17px 5px;
+}
 /* ==========================================================================
    Home
    ========================================================================== */
@@ -427,6 +430,10 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   a.navbar-brand {
+width: initial;
+padding: initial;
+}
 .col { margin:0 5%; }
 h1 {
 font-size: 40px;
