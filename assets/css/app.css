@@ -215,7 +215,7 @@ margin-bottom: 5px;
    Footer
    ========================================================================== */
 
-.content-info { background: rgba(0,0,0, .5); position: fixed; bottom: 0; width: 100%; z-index: 2; }
+.content-info { background: rgba(0,0,0, .5); width: 100%; z-index: 2; }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
@@ -442,6 +442,7 @@ margin-top: 10px;
 .marg-top{
    margin-top: 100px;
 }
+.content-info {position: fixed; bottom: 0; width: 100%;}
  }
 @media only screen
 and (min-device-width : 768px)
