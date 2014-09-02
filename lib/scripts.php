@@ -32,6 +32,8 @@ function roots_scripts() {
   wp_register_script('roots_activate', get_template_directory_uri() . '/assets/js/main.js', false, null, false);
   wp_register_script('typekit', '//use.typekit.net/yrd8hjg.js', false, null, false);
   wp_register_script('bg_vid', get_template_directory_uri() . '/assets/js/bgvid.js', false, null, false);
+  wp_register_script('add_this', '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-540601321383708c', false, null, false);
+
 
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
@@ -39,6 +41,7 @@ function roots_scripts() {
   wp_enqueue_script('roots_activate');
   wp_enqueue_script('bg_vid');
   wp_enqueue_script('typekit');
+  wp_enqueue_script('add_this');
 }
 
 
