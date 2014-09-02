@@ -441,6 +441,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   p{
+      font-size: 20px;
+   }
    .vid-container {
       padding-top: 0px;
    }
