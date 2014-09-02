@@ -70,7 +70,9 @@ opacity: .5;
    Header
    ========================================================================== */
 
-.banner {background: rgba(0,0,0,.6); }
+
+.banner {background: rgba(0,0,0,1); }
+
 header.navbar-default .navbar-nav>li>a {
 text-transform: uppercase;
 color: #fff;
@@ -441,6 +443,7 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .banner {background: rgba(0,0,0,.6); }
    p{
       font-size: 20px;
    }
