@@ -161,7 +161,7 @@ text-align: center;
 background: rgb(175,175,175);
 height: 100.5%;
 display: block;
-opacity: 0;
+opacity: 1;
 -webkit-transition: 500ms;
 -moz-transition: 500ms;
 transition: 500ms;
@@ -169,6 +169,11 @@ transition: 500ms;
 }
 .video .menu-blog.active{
    background: transparent!important;
+}
+.vid-desc h3 {
+position: relative;
+margin-top: 150px;
+opacity: 1;
 }
 /* ==========================================================================
    Content
@@ -487,6 +492,7 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .vid-desc {opacity: 0;}
    .banner {background: rgba(0,0,0,.6); }
    p{
       font-size: 20px;
