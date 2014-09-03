@@ -158,7 +158,6 @@ width: 100%;
 left: 0px;
 padding: 10%;
 text-align: center;
-background: rgb(175,175,175);
 height: 100.5%;
 display: block;
 opacity: 1;
@@ -491,7 +490,7 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-   .vid-desc {opacity: 0;}
+   .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .banner {background: rgba(0,0,0,.6); }
    p{
       font-size: 20px;
