@@ -512,7 +512,7 @@ display: block!important;
    header.banner.navbar.navbar-default.navbar-static-top {
 position: relative;
 }
-.content {padding-top: 0px; }
+.content {padding-top: 0px; padding-bottom: 100px;}
 
    a.navbar-brand {
 width: initial;
@@ -529,9 +529,7 @@ margin-top: 10px;
 .slide-pad{
    padding: 25px;
 }
-.marg-top{
-   margin-top: 100px;
-}
+
 .content-info {position: fixed; bottom: 0; width: 100%;}
  }
 @media only screen
@@ -546,6 +544,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .marg-top{
+   margin-top: 100px;
+}
    .disco-slider {
 height: 550px;
 }
