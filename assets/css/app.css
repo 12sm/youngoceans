@@ -528,6 +528,10 @@ letter-spacing: 26px;
 }
 ul#menu-primary-navigation {
 margin-top: 10px;
+width: 75%;
+}
+.navbar-header {
+width: 25%;
 }
 .slide-pad{
    padding: 25px;
