@@ -164,7 +164,7 @@ opacity: 1;
 transition: 500ms;
 -webkit-box-shadow: inset 0px 0px 50px 5px rgba(0,0,0,0.6);
 }
-.video .menu-blog.active{
+.video .menu-blog.active, .videos .menu-blog.active{
    background: transparent!important;
 }
 .vid-desc h3 {
