@@ -152,7 +152,45 @@
 
 		</div>
 	</div>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
 
+          <div class="row">
+	<div class='col-sm-12'>
+		[wpv-view name='VIDEOS | ARCHIVE | FEATURED']
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+      <h1 class='centered'>More Videos</h1>
+      <div class='row video-list'>
+
+        <wpv-loop>
+			<div class='col-sm-3'>
+				<a href="[wpv-post-url]">
+				<div class="vid-thumb">
+                	<div class='vid-desc'>
+						[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 1"]
+							[wpv-post-featured-image attr='class=img-responsive' size='thumbnail']
+						[/wpv-if]
+						[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 2"]
+							[types field="custom-video-thumbnail" size="thumbnail" align="none" resize="proportional" class="img-responsive"][/types]
+						[/wpv-if]
+						<h3>[wpv-post-title]</h3>
+					</div>
+				</div>
+				</a>
+		</div>
+	</wpv-loop>
+</div>
+
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
 
 <!--reload scripts-->
 <script>
