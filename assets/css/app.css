@@ -144,9 +144,7 @@ box-shadow: 0px 0px 0px!important;
 /* ==========================================================================
    Video
    ========================================================================== */
-.vid-container {
-padding-top: 100px;
-}
+
 .vid-desc:hover {
 opacity: 0.85;
 }
@@ -490,6 +488,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .vid-container {
+padding-top: 100px;
+}
    .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .banner {background: rgba(0,0,0,.6); }
    p{
