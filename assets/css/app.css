@@ -491,7 +491,6 @@ html[xmlns] .slides {display: block;}
    .vid-container {
 padding-top: 100px;
 }
-   .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .banner {background: rgba(0,0,0,.6); }
    p{
       font-size: 20px;
@@ -551,6 +550,7 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+      .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .marg-top{
    margin-top: 100px;
 }
