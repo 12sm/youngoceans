@@ -20,7 +20,6 @@
 
   var vid;
   function bgVid(url){
-    debugger;
     if($(window).width() >= 768){
     $.okvideo({ source: url, volume: 0, adproof: true, loop: true });
   }
