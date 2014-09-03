@@ -505,6 +505,9 @@ padding-top: 100px;
 h3{
    font-size: 26px;
 }
+.marg-top {
+margin-top: 50px;
+}
    #okplayer {
 display: block!important;
 }
