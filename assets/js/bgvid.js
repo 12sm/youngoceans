@@ -1,3 +1,9 @@
 $(document).ready(function(){
-	$.okvideo({ source: 'PLbngbkcCcQnP5TFKxViUh-rUr7iQbOunt', volume: 0, adproof: true, hd: true });
+	$.okvideo({  playlist: {
+                	list: 'PLbngbkcCcQnP5TFKxViUh-rUr7iQbOunt', // a YT playlist id
+                	suggestedQuality: 'hd720'
+              		},
+          		volume: 0,
+      			adproof: true,
+      			hd: true });
 });
