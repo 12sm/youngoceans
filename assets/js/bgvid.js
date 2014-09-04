@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true, hd: true });
+	$.okvideo({ source: 'http://www.youtube.com/playlist?list=PLbngbkcCcQnP5TFKxViUh-rUr7iQbOunt', volume: 0, adproof: true, hd: true });
 });
