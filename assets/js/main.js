@@ -22,8 +22,8 @@
   /*function bgVid(url){
     if($(window).width() >= 768){
     $.okvideo({ source: url, volume: 0, adproof: true, loop: true });
-  }*/
   }
+  }*/
 // Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
