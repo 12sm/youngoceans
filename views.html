@@ -242,57 +242,6 @@ VID.is_iDevice = function() {
       count_vids++;
     }
 
-    // formatted as id > (r,g,b) color
-   /* var schemes = {
-      'default': {
-        'class_name': 'default',
-        color: [139, 139, 139]
-      },
-      'gt8gG9iEjpM': {
-        'class_name': 'mnwi',
-        color: [163, 220, 109]
-      },
-      't60roHM1t7o': {
-        'class_name': 'towers',
-        color: [158, 108, 58]
-      },
-      'VGAH9ihcWv4': {
-        'class_name': 'towers_deluxe',
-        color: [231, 148, 121]
-      },
-      '-XScQyx7jqU': {
-        'class_name': 'michicant',
-        color: [193, 163, 145]
-      },
-      've5dUOWI0q4': {
-        'class_name': 'hinnom',
-        color: [238, 171, 88]
-      },
-      'KMfL7rVAu0U': {
-        'class_name': 'washington',
-        color: [165, 162, 181]
-      },
-      'tw7ORJOPIt8': {
-        'class_name': 'lisbon',
-        color: [164, 183, 145]
-      },
-      'wF_Mx2xsdbw': {
-        'class_name': 'beth',
-        color: [132, 140, 174]
-      },
-      'c3GN9CqxKAY': {
-        'class_name': 'perth',
-        color: [107, 205, 245]
-      },
-      'MjxA25Tj1Ks': {
-        'class_name': 'holocene',
-        color: [107, 205, 245]
-      },
-      'bKggxiLaBmI': {
-        'class_name': 'calgary',
-        color: [107, 205, 245]
-      }
-    }*/
 
     var yoceans_playlist_Length = yoceans_playlist.length;
     yoceans_playlist = yoceans_playlist.slice(0,yoceans_playlist_Length-1);
@@ -357,29 +306,6 @@ player = new YT.Player('player', {
           $('#content_container').removeClass('hidden');
         }
 
-        /*video_id = player.getPlaylist()[player.getPlaylistIndex()];
-
-        if( video_id != active_video_id ) {
-          // set vars to
-          a_scheme = ( schemes[active_video_id] )? schemes[active_video_id] : schemes['default'];
-          c_scheme = ( schemes[video_id] )? schemes[video_id] : schemes['default'];
-
-          // handle new color filters
-          if( typeof multiplyfilter == 'object' ) {
-            // test if color values are the same so the filter doesn't need to run again
-            if( multiplyfilter.color.join() != c_scheme.color.join() ) {
-              multiplyfilter.color = c_scheme.color;
-              if( multiplyfilter.prepared.length > 0 ) {
-                multiplyfilter.colorize();
-              }
-            }
-          }
-
-          $('body').removeClass( a_scheme.class_name ).addClass( c_scheme.class_name );
-
-          active_video_id = video_id;
-        }*/
-
       }
 
       // ended
@@ -395,7 +321,7 @@ player = new YT.Player('player', {
     }
 
     function onPlayerReady(event) {
-      videoBG.animate({ "opacity" : "1"},1000);
+      videoBG.animate({ "opacity" : "1"},5000);
 
       if(!isiPad) {
         player.playVideo();
@@ -457,16 +383,15 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
-	debugger;
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-            player.playVideoAt(videoIndex);
+            change_iframe_player(videoIndex);
         } else {
             videoIndex++;
-            player.playVideoAt(videoIndex);
+            change_iframe_player(videoIndex);
         }
     };
 window.videoBG = $("#background");
