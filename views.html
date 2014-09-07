@@ -383,15 +383,16 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
+	debugger;
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-            change_iframe_player(videoIndex);
+            player.loadPlaylist(yoceans_playlist, videoIndex, 0, 'hd1080');
         } else {
             videoIndex++;
-            change_iframe_player(videoIndex);
+            player.loadPlaylist(yoceans_playlist, videoIndex, 0, 'hd1080');
         }
     };
 window.videoBG = $("#background");
