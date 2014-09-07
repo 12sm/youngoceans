@@ -20,7 +20,6 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
-<?php echo do_shortcode('[wpv-view name="video-backgrounds"]'); ?>
 
 <!-- Begin 12SM Network Analytics <!-->
   <script type="text/javascript">
