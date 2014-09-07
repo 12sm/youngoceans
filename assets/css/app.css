@@ -85,7 +85,6 @@ left: 0;
 right: 0;
 display: block;
 z-index: 2;
-opacity: 0;
 }
 #background, #background_show {
 position: fixed;
