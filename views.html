@@ -195,7 +195,6 @@
 <!--reload scripts-->
 <script>
 var bodyClass = jQuery(dataa).find(body).prop('class');
-console.log(bodyClass);
 for(i=0; i < bodyClass.length; i++){
 jQuery(body).addClass(bodyClass[i]);
 }
@@ -392,7 +391,6 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
-	debugger;
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
