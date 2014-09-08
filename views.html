@@ -329,7 +329,7 @@ player = new YT.Player('player', {
 
     function onPlayerReady(event) {
 
-     //videoBG.animate({ "opacity" : "1"},5000);
+     $('#background').animate({ "opacity" : "1"},5000);
       if(!isiPad) {
         player.playVideo();
         player.mute();

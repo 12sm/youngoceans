@@ -7,9 +7,7 @@
    Base
    ========================================================================== */
 body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; }
-#okplayer {
-display: none!important;
-}
+
 h1,h2,h3,h4,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
@@ -89,6 +87,7 @@ z-index: 0;
 #background, #background_show {
 position: fixed;
 }
+#background{opacity: 0;}
 /* ==========================================================================
    Header
    ========================================================================== */
