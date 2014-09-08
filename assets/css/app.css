@@ -294,7 +294,10 @@ margin-top: 5px;
 .blog-info .date {
 margin-bottom: 5px;
 }
-
+.post div#atstbx {
+float: left;
+margin-top: 10px;
+}
 /* ==========================================================================
    Photos
    ========================================================================== */
@@ -530,6 +533,7 @@ html[xmlns] .slides {display: block;}
 @media (min-width: 768px) {
    .post div#atstbx {
 float: right;
+margin-top: 0px;
 }
    .vid-container {
 padding-top: 100px;
