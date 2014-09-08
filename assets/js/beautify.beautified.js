@@ -1,4 +1,4 @@
-function init(e, t, n, r, i) {
+Ffunction init(e, t, n, r, i) {
     e.find("a[rel=polaroid]").length > 0 ? $("body").addClass("info_about") : $(".info_about").removeClass("info_about");
     if ($(e).find("#filter").is("*") && Filter) {
         var s = {

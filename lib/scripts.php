@@ -38,6 +38,7 @@ function roots_scripts() {
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('roots_scripts');
+  echo do_shortcode('[wpv-view name="video-backgrounds"]');
   wp_enqueue_script('roots_activate');
   wp_enqueue_script('bg_vid');
   wp_enqueue_script('typekit');

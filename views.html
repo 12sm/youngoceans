@@ -276,7 +276,6 @@ player = new YT.Player('player', {
         return;
       }
       videoBG.html('<div id="player" style="position: absolute; width:100% ; height: 100%;"></div>');
-      debugger;
       if(index > yoceans_channel_array.length - 1) {
         videoIndex = 0;
       }
@@ -318,7 +317,8 @@ player = new YT.Player('player', {
 
       // ended
       if(event.data == 0) {
-        window.playNextVideo();
+        alert('event data 0 firing');
+        playNextVideo();
       }
 
       // paused
@@ -391,6 +391,7 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
+        alert('playNextVideo is firing');
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
@@ -398,6 +399,7 @@ window.playNextVideo = function() {
             videoIndex = 0;
     		player.nextVideo()
         } else {
+            alert('third if statement firing');
             videoIndex++;
             player.nextVideo()
         }
