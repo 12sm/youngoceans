@@ -87,8 +87,7 @@ z-index: 0;
 #background, #background_show {
 position: fixed;
 }
-#background{opacity: 0; pointer-events: none;}
-#background>*{pointer-events: none;}
+#background{opacity: 0; }
 /* ==========================================================================
    Header
    ========================================================================== */
