@@ -46,7 +46,6 @@ var Roots = {
       });
       window.videoBG = $("#background");
       window.videoBG.fullScreen().center();
-      $('#bg-overlay').fullScreen().center();
     }
   },
   // Home page
