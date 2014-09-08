@@ -87,7 +87,7 @@ z-index: 0;
 #background, #background_show {
 position: fixed;
 }
-#background{opacity: 0; pointer-events:none; }
+#background{opacity: 0;}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -278,6 +278,11 @@ height: 45px;
 div#atstbx {
 max-width: 300px;
 float: right;
+}
+.blog-info {
+max-width: 300px;
+text-align: left;
+margin: 0 auto;
 }
 /* ==========================================================================
    Photos
