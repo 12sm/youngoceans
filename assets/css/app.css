@@ -76,7 +76,7 @@ font-family: 'proxima-nova'!important;
 font-size: 22px;
 color: #fff;
 }
-#background, #background iframe, #background_show, .bg-overlay {
+#background, #background iframe, #background_show, #bg-overlay {
 top: 0;
 bottom: 0;
 left: 0;
