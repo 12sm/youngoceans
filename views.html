@@ -257,6 +257,7 @@ player = new YT.Player('player', {
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
         playerVars: { 'autoplay': 0, 'controls': 0, 'showinfo' : 0, 'playlist' : yoceans_playlist, 'wmode' : 'transparent'},
+        disablekb: 0,
         events: {
           'onReady': onPlayerReady,
           'onStateChange': onPlayerStateChange
@@ -286,6 +287,7 @@ player = new YT.Player('player', {
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
         playerVars: { 'autoplay': 0, 'controls': 0, 'showinfo' : 0},
+        disablekb: 0,
         events: {
           'onReady': onPlayerReady,
           'onStateChange': onPlayerStateChange
@@ -395,8 +397,7 @@ window.playNextVideo = function() {
             player.loadPlaylist(yoceans_playlist, videoIndex, 0, 'hd1080');
         }
     };
-window.videoBG = $("#background");
-window.videoBG.fullScreen().center();
+
 </script>
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]

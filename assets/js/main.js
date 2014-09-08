@@ -49,7 +49,8 @@ var Roots = {
         $('body').addClass(link[3]);
         }
       });
-
+      window.videoBG = $("#background");
+      window.videoBG.fullScreen().center();
     }
   },
   // Home page
