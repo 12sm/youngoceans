@@ -44,6 +44,7 @@ var Roots = {
         $('body').addClass(link[3]);
         }
       });
+
       window.videoBG = $("#background");
       window.videoBG.fullScreen().center();
       $('#bg-overlay').fullScreen().center();
