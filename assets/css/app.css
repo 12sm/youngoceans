@@ -277,12 +277,17 @@ height: 45px;
 }
 div#atstbx {
 max-width: 300px;
-float: right;
 }
 .blog-info {
 max-width: 300px;
 text-align: left;
 margin: 0 auto;
+}
+.blog-info h3 {
+margin-top: 5px;
+}
+.blog-info .date {
+margin-bottom: 5px;
 }
 /* ==========================================================================
    Photos
