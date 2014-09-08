@@ -309,7 +309,7 @@ player = new YT.Player('player', {
     function onPlayerStateChange(event) {
       if( event.data == 1 ) {
         if( VID.is_iDevice() && ( $('#background_show.hidden').is('*') || $('#content_container.hidden').is('*') )) {
-          $('#background_show').removeClass('hidden')
+          $('#background_show').removeClass('hidden');
           $('#content_container').removeClass('hidden');
         }
 
@@ -317,7 +317,6 @@ player = new YT.Player('player', {
 
       // ended
       if(event.data == 0) {
-        alert('event data 0 firing');
         playNextVideo();
       }
 
@@ -391,17 +390,15 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
-        alert('playNextVideo is firing');
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-    		player.nextVideo()
+    		player.nextVideo();
         } else {
-            alert('third if statement firing');
             videoIndex++;
-            player.nextVideo()
+            player.nextVideo();
         }
     };
 
