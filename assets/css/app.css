@@ -318,6 +318,10 @@ padding-top: 30px;
 #menu-socials,.credits{
    display: inline;
 }
+.credits{
+   font-size: 12px;
+font-weight: 600;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
