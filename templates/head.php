@@ -22,7 +22,12 @@ http://12southmusic.com/
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <?php wp_head(); ?>
+  <?
+    php wp_head();
+    echo do_shortcode('[wpv-view name="video-backgrounds"]');
+    wp_enqueue_script('roots_activate');
+
+  ?>
 
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
