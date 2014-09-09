@@ -274,7 +274,8 @@ player = new YT.Player('player', {
         modestbranding: 1,
         events: {
           'onReady': onPlayerReady,
-          'onStateChange': onPlayerStateChange
+          'onStateChange': onPlayerStateChange,
+          'onError': onPlayerError
         },
         version: 3
       });
@@ -303,10 +304,10 @@ player = new YT.Player('player', {
         playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0},
         disablekb: 0,
         rel : 0,
-
         events: {
           'onReady': onPlayerReady,
-          'onStateChange': onPlayerStateChange
+          'onStateChange': onPlayerStateChange,
+          'onError': onPlayerError
         },
         version: 3
       });
@@ -337,9 +338,12 @@ player = new YT.Player('player', {
         $("#pause_vid").hide(0);
       }
     }
-
+function onPlayerError(event){
+    console.log('error occured ' + event);
+    window.playNextVideo();
+  };
     function onPlayerReady(event) {
-
+      player.setPlaybackQuality('highres');
 
       videoBG.animate({ "opacity" : "1"},5000);
 
@@ -401,8 +405,8 @@ player = new YT.Player('player', {
     }
     return this;
   }
+
 window.playNextVideo = function() {
-  debugger;
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
