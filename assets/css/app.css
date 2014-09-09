@@ -624,12 +624,7 @@ padding-top: 30px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-   a.disco-prev {
-right: -25px;
-}
-a.disco-next {
-left: -25px;
-}
+
       .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .marg-top{
    margin-top: 100px;
@@ -673,6 +668,12 @@ height: 32px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+a.disco-prev {
+right: -25px;
+}
+a.disco-next {
+left: -25px;
+}
 .discographies .content{
 padding-top: 5%;
 }
