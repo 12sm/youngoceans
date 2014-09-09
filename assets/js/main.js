@@ -44,9 +44,16 @@ var Roots = {
         $('body').addClass(link[3]);
         }
       });
+
+      function BGResize(){
       window.videoBG = $("#background");
       window.videoBG.fullScreen().center();
       $('#bg-overlay').fullScreen().center();
+      };
+      BGResize();
+      window.resize(function(){
+        BGResize();
+      })
     }
   },
   // Home page
