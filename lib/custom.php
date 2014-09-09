@@ -27,7 +27,7 @@ function views_index() {
 }
 add_shortcode('video-id', 'views_index');
 function parse_Id($atts){
-  $defaults_array = array(url= null);
+  $defaults_array = array('url'= null);
   shortcode_atts( $defaults_array, $atts );
   $link= $atts['url'];
   preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $link, $matches);
