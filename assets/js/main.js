@@ -51,7 +51,7 @@ var Roots = {
       $('#bg-overlay').fullScreen().center();
       };
       BGResize();
-      window.resize(function(){
+      $(window).resize(function(){
         BGResize();
       })
     }
