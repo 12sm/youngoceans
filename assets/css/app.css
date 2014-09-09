@@ -84,7 +84,8 @@ right: 0;
 display: block;
 z-index: 0;
 }
-#background, #background_show {
+div#bg-overlay {z-index: 1}
+#background, #bg-overlay {
 position: fixed;
 }
 #background{opacity: 0;}
