@@ -215,7 +215,6 @@ jQuery(body).addClass(bodyClass[i]);
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
 <script>
-if ($(window).width() >= 767){
   var VID = {}
 
 VID.is_iDevice = function() {
@@ -260,6 +259,7 @@ VID.is_iDevice = function() {
     var player;
 
     function onYouTubePlayerAPIReady() {
+      if ($(window).width() >= 767){
       $(function(){
 player = new YT.Player('player', {
         height: '100%',
@@ -280,6 +280,7 @@ player = new YT.Player('player', {
       });
 	});
     }
+  }
 
     function change_iframe_player(index) {
       if( !videoBG || !videoBG.is('*') ) {
@@ -342,10 +343,8 @@ player = new YT.Player('player', {
 
       videoBG.animate({ "opacity" : "1"},5000);
 
-      if(!isiPad) {
         player.playVideo();
         player.mute();
-      }
 
     }
 
@@ -415,7 +414,6 @@ window.playNextVideo = function() {
             player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
         }
     };
-}
 </script>
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
