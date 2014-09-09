@@ -93,6 +93,7 @@ opacity: .3;
 background: rgb(175,175,175);
 z-index: 0.5;
 }
+.bg{background-repeat: rgba(175,175,175,.4);}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -251,7 +252,7 @@ top: 25%;
 font-size: 36px;
 }
 .vid-thumb.album-img {
-margin: 0 auto;
+float: right;
 max-width: 380px;
 height: 380px;
 }
