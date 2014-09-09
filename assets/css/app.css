@@ -250,8 +250,10 @@ left: -25px;
 top: 25%;
 font-size: 36px;
 }
-.album-img{
-   margin: 0 auto;
+.vid-thumb.album-img {
+margin: 0 auto;
+max-width: 380px;
+height: 380px;
 }
 /* ==========================================================================
    Posts
