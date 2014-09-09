@@ -256,7 +256,7 @@ player = new YT.Player('player', {
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
         playlist: yoceans_playlist,
-        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0, 'playlist' : yoceans_playlist, 'wmode' : 'transparent', 'loop': 1, },
+        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0, 'playlist' : yoceans_playlist, 'wmode' : 'transparent' },
         disablekb: 0,
         rel : 0,
         loop: 1,
@@ -398,10 +398,10 @@ window.playNextVideo = function() {
             change_iframe_player(videoIndex);
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-    		player.nextVideo();
+    		player.loadVideoById(window.yoceans_channel_array[videoIndex]);
         } else {
             videoIndex++;
-            player.nextVideo();
+            player.loadVideoById(window.yoceans_channel_array[videoIndex]);
         }
     };
 
