@@ -272,7 +272,6 @@ height: 275px;
 margin: 0 auto;
 }
 .blog-pad {
-height: 400px;
 text-align: center;
 }
 .blog-box{
@@ -303,6 +302,11 @@ margin-bottom: 5px;
 .post div#atstbx {
 float: left;
 margin-top: 10px;
+}
+.blog-info.bg {
+padding: 10px;
+margin-bottom: 25px;
+min-height: 200px;
 }
 /* ==========================================================================
    Photos
