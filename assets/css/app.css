@@ -88,10 +88,11 @@ z-index: 0;
 position: fixed;
 }
 #background{opacity: 0;}
-div#bg-overlay {
-opacity: .3;
+
+#background_show {
+opacity: 0.3;
+filter: alpha(opacity=0.3);
 background: rgb(175,175,175);
-z-index: 0.5;
 }
 /* ==========================================================================
    Header

@@ -5,7 +5,7 @@
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
     </div>
   <![endif]-->
-  <div id='bg-overlay'></div>
+  <div id="background_show"></div>
     <div id="background"><div id="player" style="position: absolute; width:100%; height: 100%;"></div></div>
 
   <?php
