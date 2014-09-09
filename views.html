@@ -212,8 +212,8 @@ jQuery(body).addClass(bodyClass[i]);
 
 <!------------VIDEO BGS----------------->
 [wpv-layout-start]
-	[wpv-items-found]
-	<!-- wpv-loop-start -->
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
 <script>
   var VID = {}
 
@@ -225,20 +225,21 @@ VID.is_iDevice = function() {
         (navigator.platform.indexOf("armv7") != -1)
       );
     }
+
     var videoBG
 
       , isiPad = navigator.userAgent.match(/iPad/i) != null
       , videoIndex = 0
       , yoceans_channel =  {
-		<wpv-loop>
+    <wpv-loop>
           [wpv-item index=other]
- "[types field="youtube-video-id" output="raw"][/types]":{"0":"[wpv-post-title]"},
+vid_id[wpv-post-id]:{"0":"[wpv-post-title]"},
           [wpv-item index=pad]
- "[types field="youtube-video-id" output="raw"][/types]":{"0":"[wpv-post-title]"}
+vid_id[wpv-post-id] :{"0":"[wpv-post-title]"},
 
-		</wpv-loop>
+    </wpv-loop>
   }
-  ,	yoceans_channel_array = []
+  , yoceans_channel_array = []
       , yoceans_playlist = ''
       , count_vids = 0;
 
@@ -254,7 +255,7 @@ VID.is_iDevice = function() {
     var yoceans_playlist_Length = yoceans_playlist.length;
     yoceans_playlist = yoceans_playlist.slice(0,yoceans_playlist_Length-1);
 
-	$('body').addClass("default");
+  $('body').addClass("default");
 
     var player;
 
@@ -279,7 +280,7 @@ player = new YT.Player('player', {
         },
         version: 3
       });
-	});
+  });
     }
   }
 
@@ -412,16 +413,25 @@ window.playNextVideo = function() {
             change_iframe_player(videoIndex);
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-    		player.loadVideoById(window.yoceans_channel_array[videoIndex]);
+        player.loadVideoById(window.yoceans_channel_array[videoIndex]);
         } else {
             videoIndex++;
             player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
         }
     };
+  };
 </script>
-	<!-- wpv-loop-end -->
-	[/wpv-items-found]
-	[wpv-no-items-found]
-		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
-	[/wpv-no-items-found]
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
 [wpv-layout-end]
+
+
+
+<!-----------VIDEO IDS------------>
+<wpv-loop>
+ var vid_id[wpv-post-index] = window.youtube_parser([types field="youtube-video-id" output="raw"][/types]);
+
+    </wpv-loop>
