@@ -266,8 +266,9 @@ height: 380px;
 .hentry .entry-content { }
 .hentry footer { }
 
+
 .blog-img {
-width: 300px;
+width: 274px;
 height: 275px;
 margin: 0 auto;
 }
@@ -541,6 +542,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .blog-img {
+width: 300px;
+}
    .post div#atstbx {
 float: right;
 margin-top: 0px;
