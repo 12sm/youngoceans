@@ -546,6 +546,12 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   a.disco-prev {
+right: -15px;
+}
+a.disco-next {
+left: -15px;
+}
    .flex-direction-nav a {top:50%;}
    .blog-img {
 width: 300px;
@@ -617,6 +623,13 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+   a.disco-prev {
+right: -25px;
+}
+a.disco-next {
+left: -25px;
+}
       .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .marg-top{
    margin-top: 100px;
