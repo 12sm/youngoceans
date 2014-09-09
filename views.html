@@ -393,6 +393,7 @@ player = new YT.Player('player', {
     return this;
   }
 window.playNextVideo = function() {
+  debugger;
         if (isiPad) {
             videoIndex++;
             change_iframe_player(videoIndex);
@@ -401,7 +402,7 @@ window.playNextVideo = function() {
     		player.loadVideoById(window.yoceans_channel_array[videoIndex]);
         } else {
             videoIndex++;
-            player.loadVideoById(window.yoceans_channel_array[videoIndex]);
+            player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
         }
     };
 
