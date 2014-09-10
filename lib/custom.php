@@ -33,6 +33,7 @@ function parse_Id($atts){
   $link = $atts['url'];
   preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $link, $matches);
   echo $link;
+  echo $atts[url];
   }
 
 
