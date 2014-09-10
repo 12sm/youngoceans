@@ -25,7 +25,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      $.backstretch('../img/bg.jpg');
+      $.backstretch('../assets/img/bg.jpg');
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
       //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
