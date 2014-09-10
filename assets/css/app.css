@@ -97,7 +97,7 @@ z-index: 0.5;
 div#ajaxcontent * {
 z-index: 2;
 }
-.album-title{
+.album-title, .centered{
    text-align: center;
 }
 /* ==========================================================================
