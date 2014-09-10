@@ -31,7 +31,6 @@ var Roots = {
     }
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
-      //$.okvideo({ source: 'https://vimeo.com/103495412', volume: 0, adproof: true });
       $('.vid-thumb').imgLiquid();
 
       //body class update

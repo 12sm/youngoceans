@@ -233,9 +233,9 @@ VID.is_iDevice = function() {
       , yoceans_channel =  {
     <wpv-loop>
           [wpv-item index=other]
-vid_id[wpv-post-id]:{"0":"[wpv-post-title]"},
+[video-id url='[types field="youtube-video-id" output="raw"][/types]']:{"0":"[wpv-post-title]"},
           [wpv-item index=pad]
-vid_id[wpv-post-id] :{"0":"[wpv-post-title]"},
+[video-id url='[types field="youtube-video-id" output="raw"][/types]']:{"0":"[wpv-post-title]"},
 
     </wpv-loop>
   }
@@ -262,7 +262,7 @@ vid_id[wpv-post-id] :{"0":"[wpv-post-title]"},
     function onYouTubePlayerAPIReady() {
       if ($(window).width() >= 767){
       $(function(){
-player = new YT.Player('player', {
+        player = new YT.Player('player', {
         height: '100%',
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
@@ -344,12 +344,13 @@ function onPlayerError(event){
     window.playNextVideo();
   };
     function onPlayerReady(event) {
+      if (!isiPad) {
       player.setPlaybackQuality('highres');
       videoBG.animate({ "opacity" : "1"},5000);
 
         player.playVideo();
         player.mute();
-
+        };
     }
 
   $.fn.center = function () {
