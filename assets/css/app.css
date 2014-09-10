@@ -108,7 +108,7 @@ z-index: 2;
 header.navbar-default .navbar-nav>li>a {
 text-transform: uppercase;
 color: #fff;
-font-size: 16px;
+font-size: 14px;
 font-weight: 700;
 padding: 10px;
 }
@@ -677,6 +677,10 @@ height: 32px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+header.navbar-default .navbar-nav>li>a {
+font-size: 16px;
+}
 a.disco-prev {
 right: -25px;
 }
