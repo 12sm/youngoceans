@@ -32,7 +32,8 @@ function parse_Id($atts){
   shortcode_atts( $defaults_array, $atts );
   $link = $atts['url'];
   preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $link, $matches);
-  echo $matches[0];
+  echo $link;
+  echo $matches;
   }
 
 
