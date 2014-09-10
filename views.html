@@ -1,44 +1,51 @@
 <!---------HOME | SLIDER ------------>
 [wpv-layout-start]
-	[wpv-items-found]
-		<div class='row'>
-	<div class='col-sm-12'>
-		<div id="home-slider">
-		<ul class='slides'>
-			<wpv-loop>
-				<li>
+  [wpv-items-found]
+    <div class='row'>
+  <div class='col-sm-8 col-sm-offset-2'>
+    <div id="home-slider">
+    <ul class='slides'>
+      <wpv-loop>
+        <li>
                   <div class='row'>
-					<div class="col-sm-6">
+                    [wpv-if type='wpcf-slide-type' evaluate="$type = 'image' "]
+                    <div class='marg-top'>
+                    <div class="col-sm-6">
 
-	                  [wpv-if type='wpcf-slide-type' evaluate="$type = 'image' "]
-						<a href="[types field="button-url" output="raw"][/types]">
-							<img src="[types field="image" size="medium" url="true" resize="proportional"][/types]" class="img-responsive">
-						</a>
-					</div>
-					<div class='col-sm-6'>
-						<h3>[types field="headline"][/types]</h3>
-	                  <a href='[types field="button-url" output="raw"][/types]' class='btn btn-click'>[types field="button-text"][/types]</a>
-					</div>
-	              [/wpv-if]
-	              [wpv-if type='wpcf-slide-type' evaluate="$type = 'video' "]
-	              	<div class='col-sm-12'>
-	                  <div class='vid-container'>
-	                    [types field="video-url"][/types]
-	                  </div>
-	              </div>
-	              [/wpv-if]
+            <a href="[types field="button-url" output="raw"][/types]">
+              <img src="[types field="image" size="medium" url="true" resize="proportional"][/types]" class="img-responsive">
+            </a>
+          </div>
+          <div class='col-sm-6'>
+                      <div class='slide-pad bg'>
+            <h2>[types field="headline"][/types]</h2>
+                    <a href='[types field="button-url" output="raw"][/types]' class='btn btn-click'>[types field="button-text"][/types]</a>
+                    </div>
+          </div>
                   </div>
-	              </li>
-				</wpv-loop>
-			</ul>
-		</div>
-	</div>
+                [/wpv-if]
+                [wpv-if type='wpcf-slide-type' evaluate="$type = 'video' "]
+                <div class='marg-top'>
+                    <div class='col-sm-12'>
+                      <div class='vid-container'>
+                        [types field="video-url"][/types]
+                      </div>
+                    </div>
+                </div>
+                [/wpv-if]
+                  </div>
+                </li>
+        </wpv-loop>
+      </ul>
+    </div>
+  </div>
 </div>
-	[/wpv-items-found]
-	[wpv-no-items-found]
-		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
-	[/wpv-no-items-found]
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
 [wpv-layout-end]
+
 
 
 <!---------- DISCOGRAPHY | PAGE -------------->
