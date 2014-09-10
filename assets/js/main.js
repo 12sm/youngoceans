@@ -66,7 +66,7 @@ var Roots = {
         animation: 'fade',
         animationSpeed: 500,
         directionNav: true,
-        controlNav: false
+        controlNav: true
       });
     }
   },
