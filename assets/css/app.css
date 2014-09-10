@@ -270,7 +270,6 @@ a.disco-next, a.disco-prev{
    z-index: 3!important;
 }
 .vid-thumb.album-img {
-float: right;
 max-width: 380px;
 height: 380px;
 }

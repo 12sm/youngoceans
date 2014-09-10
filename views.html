@@ -70,33 +70,43 @@
 
 <!------------ DISCOGRAPHY SINGLE ------------>
 [wpv-layout-start]
-	[wpv-items-found]
-	<!-- wpv-loop-start -->
-	<div class="row ">
-		<div class="col-sm-12 disco-slider">
-			<wpv-loop>
-					<div class="row" id='[wpv-post-title]'>
-						<div class="col-sm-8 col-sm-push-3">
-							<h2>[wpv-post-title] ([types field="release-date" style="text" format="Y"][/types])</h2>
-							<p>[types field="description"][/types]</p>
-						</div>
-						<div class="col-sm-4 col-sm-pull-8">
-							<div class="spotify-player">
-								[types field="spotify"][/types]
-							</div>
-						</div>
-					</div>
-              <h3>More Albums</h3>
-			[wpv-view name="discography-page" ids='[wpv-post-id]']
-			</wpv-loop>
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
+  <div class="row ">
+    <div class="col-sm-12 disco-slider">
+      <wpv-loop>
+        <h1 class='album-title'>[wpv-post-title]</h1>
+          <div class="row" id='[wpv-post-title]'>
+            <div class="col-md-7  col-lg-8 ">
+              <div class='vid-thumb album-img'>
+              [types field="album-image" size="medium" align="none" resize="proportional" class="img-responsive"][/types]
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-4 ">
+              <div class="spotify-player">
+                [types field="spotify"][/types]
+              </div>
+            </div>
+          </div>
+        <div class='bg'>
+          <div class="row">
+            <div class="col-sm-12 album-copy ">
+              <h2>[wpv-post-title] ([types field="release-date" style="text" format="Y"][/types])</h2>
+              <p>[types field="description"][/types]</p>
+            </div>
+          </div>
+              <h2>More Albums</h2>
+      [wpv-view name="discography-page" ids='[wpv-post-id]']
+        </div>
+      </wpv-loop>
 
-		</div>
-	</div>
-	<!-- wpv-loop-end -->
-	[/wpv-items-found]
-	[wpv-no-items-found]
-		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
-	[/wpv-no-items-found]
+    </div>
+  </div>
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
 [wpv-layout-end]
 
 
