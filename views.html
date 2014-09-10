@@ -345,12 +345,12 @@ function onPlayerError(event){
   };
     function onPlayerReady(event) {
       player.setPlaybackQuality('highres');
-      if (!isiPad) {
+
       videoBG.animate({ "opacity" : "1"},5000);
 
         player.playVideo();
         player.mute();
-        };
+      if (isiPad) { videoBG.animate({ "opacity" : "0"},0); }
     }
 
   $.fn.center = function () {
