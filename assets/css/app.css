@@ -113,7 +113,7 @@ font-weight: 700;
 padding: 10px;
 }
 a.navbar-brand {
-width: 225px;
+width: 215px;
 padding: 17px 5px;
 }
 header.banner.navbar.navbar-default.navbar-static-top {
@@ -555,6 +555,12 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   a.navbar-brand {
+width: 225px;
+}
+header.navbar-default .navbar-nav>li>a {
+font-size: 12px;
+}
    a.disco-prev {
 right: -15px;
 }
