@@ -6,10 +6,9 @@
     <div id="home-slider">
     <ul class='slides'>
       <wpv-loop>
-        <li class="bg">
-                  <div class='row'>
+        <li>
+                  <div class='row bg marg-top'>
                     [wpv-if type='wpcf-slide-type' evaluate="$type = 'image' "]
-                    <div class='marg-top'>
                     <div class="col-sm-6">
 
             <a href="[types field="button-url" output="raw"][/types]">
@@ -21,17 +20,14 @@
             <h2>[types field="headline"][/types]</h2>
                     <a href='[types field="button-url" output="raw"][/types]' class='btn btn-click'>[types field="button-text"][/types]</a>
                     </div>
-          </div>
                   </div>
                 [/wpv-if]
                 [wpv-if type='wpcf-slide-type' evaluate="$type = 'video' "]
-                <div class='marg-top'>
                     <div class='col-sm-12'>
                       <div class='vid-container'>
                         [types field="video-url"][/types]
                       </div>
                     </div>
-                </div>
                 [/wpv-if]
                   </div>
                 </li>
