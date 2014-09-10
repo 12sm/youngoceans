@@ -26,14 +26,13 @@ function views_index() {
     return $paged + $i;
 }
 
-add_shortcode('video-id', 'views_index');
+add_shortcode('video-id', 'parse_Id');
 function parse_Id($atts){
   $defaults_array = array('url' => null);
   shortcode_atts( $defaults_array, $atts );
   $link = $atts['url'];
   preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $link, $matches);
-  echo $link;
-  echo $atts[url];
+  echo $matches[0];
   }
 
 
