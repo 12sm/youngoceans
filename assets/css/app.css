@@ -263,6 +263,9 @@ left: -25px;
 top: 25%;
 font-size: 36px;
 }
+a.disco-next, a.disco-prev{
+   z-index: 3!important;
+}
 .vid-thumb.album-img {
 float: right;
 max-width: 380px;
