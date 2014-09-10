@@ -101,7 +101,8 @@ var Roots = {
   photography: {
     init: function(){
       function liquidWrap(){
-        $('.col-sm-3 > a').wrap('<div class="img-pad"></div>');
+        $('.insta-photo').addClass('col-sm-6 col-md-3');
+        $('.insta-photo > a').wrap('<div class="img-pad"></div>');
         $('.img-pad').imgLiquid();
       };
 
@@ -109,7 +110,7 @@ var Roots = {
         instagram_id: 179338873,
         thumb_width: 306,
         limit: 20,
-        wrap_tag: 'div class=col-md-3',
+        wrap_tag: 'div class=insta-photo',
         success: liquidWrap
       });
     }
