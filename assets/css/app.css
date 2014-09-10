@@ -6,8 +6,8 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; }
-
+/*body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; }
+*/
 h1,h2,h3,h4,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;

@@ -844,6 +844,7 @@ jQuery(document).ready(function() {
     });
     window.playNextVideo = function() {
         if (isiPad) {
+            $('#background').animate({'opacity' : '0'} 400);
             videoIndex++;
             change_iframe_player(videoIndex);
         } else if (videoIndex >= bon_iver_channel_array.length - 1) {

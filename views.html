@@ -345,12 +345,12 @@ function onPlayerError(event){
   };
     function onPlayerReady(event) {
       player.setPlaybackQuality('highres');
-
+      if (!isiPad) {
       videoBG.animate({ "opacity" : "1"},5000);
 
         player.playVideo();
         player.mute();
-
+        };
     }
 
   $.fn.center = function () {
@@ -410,10 +410,10 @@ function onPlayerError(event){
 window.playNextVideo = function() {
         if (isiPad) {
             videoIndex++;
-            change_iframe_player(videoIndex);
+            player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
         } else if (videoIndex >= yoceans_channel_array.length - 1) {
             videoIndex = 0;
-        player.loadVideoById(window.yoceans_channel_array[videoIndex]);
+        player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
         } else {
             videoIndex++;
             player.loadVideoById(window.yoceans_channel_array[videoIndex], 'hd1080');
