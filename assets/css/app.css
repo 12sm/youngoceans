@@ -211,7 +211,7 @@ text-align: center;
 
 .content {padding-bottom: 50px; padding-top: 50px; }
 
-span.post-date {
+span.post-date, p.date {
 float: left;
 font-size: 12px;
 color: #fff;
