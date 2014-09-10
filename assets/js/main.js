@@ -104,7 +104,7 @@ var Roots = {
   photography: {
     init: function(){
       function liquidWrap(){
-        $('.insta-photo').addClass('col-sm-6 col-md-3');
+        $('.insta-photo').addClass('col-sm-6 col-md-4 col-lg-3');
         $('.insta-photo > a').wrap('<div class="img-pad"></div>');
         $('.img-pad').imgLiquid();
       };
