@@ -109,7 +109,7 @@ var Roots = {
         instagram_id: 179338873,
         thumb_width: 306,
         limit: 20,
-        wrap_tag: 'div class=col-sm-3',
+        wrap_tag: 'div class=col-md-3 col-sm-4',
         success: liquidWrap
       });
     }
