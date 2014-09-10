@@ -27,7 +27,7 @@ var Roots = {
     init: function() {
       if ($(window).width() <= 770){
       $.backstretch('../assets/img/bg.jpg');
-      $('#background').animate({'opacity': '0'} 0);
+      $('#background').animate({'opacity': '0'}, 0);
     }
       // JavaScript to be fired on all pages
       $('.vid-container').fitVids();
