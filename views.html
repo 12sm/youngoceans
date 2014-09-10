@@ -2,11 +2,11 @@
 [wpv-layout-start]
   [wpv-items-found]
     <div class='row'>
-  <div class='col-sm-8 col-sm-offset-2'>
+  <div class='col-sm-12 col-md-8 col-md-offset-2'>
     <div id="home-slider">
     <ul class='slides'>
       <wpv-loop>
-        <li>
+        <li class="bg">
                   <div class='row'>
                     [wpv-if type='wpcf-slide-type' evaluate="$type = 'image' "]
                     <div class='marg-top'>
@@ -17,7 +17,7 @@
             </a>
           </div>
           <div class='col-sm-6'>
-                      <div class='slide-pad bg'>
+                      <div class='slide-pad'>
             <h2>[types field="headline"][/types]</h2>
                     <a href='[types field="button-url" output="raw"][/types]' class='btn btn-click'>[types field="button-text"][/types]</a>
                     </div>

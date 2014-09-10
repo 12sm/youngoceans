@@ -638,12 +638,13 @@ height: 50px;
 div#social {
 padding-top: 30px;
 }
-.flex-direction-nav {
-display: block;
-}
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .flex-direction-nav {
+display: block;
+}
 a.disco-prev {
 right: 0px;
 }
