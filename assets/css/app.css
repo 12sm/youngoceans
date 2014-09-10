@@ -114,7 +114,7 @@ padding: 10px;
 }
 a.navbar-brand {
 width: 215px;
-padding: 17px 5px;
+padding: 25px 0px;
 }
 header.banner.navbar.navbar-default.navbar-static-top {
 position: fixed;
@@ -642,7 +642,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+a.navbar-brand {
+padding: 20px 0px;
+}
 a.disco-prev {
 right: 0px;
 }
