@@ -638,7 +638,12 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+a.disco-prev {
+right: 0px;
+}
+a.disco-next {
+left: 0px;
+}
 
       .vid-desc {opacity: 0; background: rgb(175,175,175);}
    .marg-top{
