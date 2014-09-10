@@ -190,9 +190,11 @@ width: 100%;
    background: transparent!important;
 }
 .vid-desc h3 {
-position: relative;
-margin-top: 150px;
+position: absolute;
 opacity: 1;
+bottom: 0;
+width: 100%;
+text-align: center;
 }
 .vid-thumb{
       min-height: 215px;
