@@ -680,6 +680,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .blog h1.centered {
+margin-bottom: 50px;
+}
 a.navbar-brand {
 padding: 20px 0px;
 }
