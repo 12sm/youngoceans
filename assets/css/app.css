@@ -232,6 +232,9 @@ text-align: center;
       width: 100%;
       margin-bottom: 50px;
    }
+   .vid-thumb.album-img {
+padding-bottom: 45%;
+}
    .vid-thumb .fa {
 font-size: 52px;
 top: 50%;
