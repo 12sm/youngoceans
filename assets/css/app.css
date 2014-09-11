@@ -339,6 +339,7 @@ margin: 0 auto;
 }
 .blog-info h3 {
 margin-top: 5px;
+clear: left;
 }
 .blog-info .date {
 margin-bottom: 5px;
