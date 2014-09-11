@@ -103,6 +103,10 @@ z-index: 2;
 .atm{
    display: none;
 }
+div.frm_description {
+color: #fff!important;
+font-family: 'proxima-nova'!important;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
