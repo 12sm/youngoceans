@@ -364,7 +364,9 @@ min-height: 200px;
 .img-pad{
    height: 250px;
    padding: 10px;
-   margin-bottom: 20px;
+}
+.insta-photo.col-sm-6.col-md-4.col-lg-3 {
+padding: 20px;
 }
 ul.instagram-grid {
 padding-left: 0px;
