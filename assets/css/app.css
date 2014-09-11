@@ -282,10 +282,12 @@ a.disco-next, a.disco-prev{
    z-index: 3!important;
 }
 .vid-thumb.album-img {
-max-width: 380px;
 height: 380px;
 }
-
+.spotify-player > iframe {
+margin: 0 auto;
+position: relative;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -573,6 +575,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .vid-thumb.album-img {
+max-width: 380px;
+}
    a.navbar-brand {
 width: 225px;
 }
