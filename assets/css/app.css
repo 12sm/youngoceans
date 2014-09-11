@@ -731,9 +731,12 @@ body { background: url(../img/bg.jpg) no-repeat; background-size: cover; backgro
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+.album-title {
+margin-bottom: 50px;
+}
    .wrap.container-fluid {
 max-width: 1180px;
+padding-top: 50px;
 }
 
 header.navbar-default .navbar-nav>li>a {
