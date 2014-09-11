@@ -209,7 +209,7 @@ opacity: 1;
 -moz-transition: 500ms;
 transition: 500ms;
 -webkit-box-shadow: inset 0px 0px 50px 5px rgba(0,0,0,0.6);
-padding-bottom: 100%;
+padding-bottom: 66%;
 min-width: 215px;
 height: 0px;
 width: 100%;
@@ -228,7 +228,7 @@ text-align: center;
 .vid-thumb{
       height: 0;
       min-width: 215px;
-      padding-bottom: 100%;
+      padding-bottom: 66%;
       width: 100%;
       margin-bottom: 50px;
    }
