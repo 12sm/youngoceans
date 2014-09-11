@@ -164,6 +164,8 @@ clear: none!important;
 white-space: normal!important;
 background: transparent!important;
 box-shadow: 0px 0px 0px!important;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
 
 .btn-container{
