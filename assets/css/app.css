@@ -703,6 +703,7 @@ padding-top: 30px;
  h1.centered {
    margin-top: 0px;
 margin-bottom: 50px;
+text-indent: 13px;
 }
 a.navbar-brand {
 padding: 20px 0px;
