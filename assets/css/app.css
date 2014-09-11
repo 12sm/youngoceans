@@ -319,8 +319,8 @@ display: block;
 
 
 .blog-img {
-width: 290px;
-height: 275px;
+width: 100%;
+height: 300px;
 margin: 0 auto;
 }
 .blog-pad {
@@ -341,7 +341,7 @@ div#atstbx {
 max-width: 300px;
 }
 .blog-info {
-max-width: 300px;
+max-width: 100%;
 text-align: left;
 margin: 0 auto;
 }
