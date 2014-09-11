@@ -343,7 +343,7 @@ margin: 0 auto;
 text-align: center;
 }
 .blog-box{
-   margin-bottom: 75px;
+margin-bottom: 30px;
 }
 .borders.addthis_sharing_toolbox {
 padding-top: 5px;
@@ -364,7 +364,7 @@ margin: 0 auto;
 .blog-info h3 {
 margin-top: 5px;
 clear: left;
-font-weight: 700;
+font-weight: 800;
 text-transform: none;
 }
 .blog-info .date {
