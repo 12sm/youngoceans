@@ -125,7 +125,7 @@ width: 100%;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-   -webkit-transition: all .5s;
+   -webkit-transition: all .4s;
    opacity: .6;
    color: #fff;
 }
