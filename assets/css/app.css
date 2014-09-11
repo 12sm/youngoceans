@@ -696,6 +696,10 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .spotify-player > iframe {
+   margin: 0;
+   float: right;
+}
    .blog h1.centered {
 margin-bottom: 50px;
 }
