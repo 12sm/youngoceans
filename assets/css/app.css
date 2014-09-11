@@ -701,6 +701,7 @@ padding-top: 30px;
    float: right;
 }
  h1.centered {
+   margin-top: 0px;
 margin-bottom: 50px;
 }
 a.navbar-brand {
