@@ -144,9 +144,9 @@ width: 100%;
    opacity: .6;
    color: #fff;
 }
+
 #social .floatright {
-width: 35%;
-float: right;
+width: 100%;
 }
 /* ==========================================================================
    Home
@@ -626,6 +626,10 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   #social .floatright {
+width: 35%;
+float: right;
+}
       .vid-thumb.album-img {
 padding-bottom: 45%;
 }
