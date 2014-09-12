@@ -386,6 +386,10 @@ min-height: 115px;
 height: 32px;
 margin-left:-2px;
 }
+.entry-content h1.centered {
+white-space: normal;
+white-space: normal;
+}
 /* ==========================================================================
    Photos
    ========================================================================== */
