@@ -782,6 +782,16 @@ body { background: url(../img/bg.jpg) no-repeat; background-size: cover; backgro
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+   ul#menu-primary-navigation {
+margin-top: 10px;
+width: 70%;
+}
+.navbar-header {
+width: 30%;
+}
+.col {
+margin: 0 25%;
+}
 .album-title {
 margin-bottom: 50px;
 }
