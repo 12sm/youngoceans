@@ -25,6 +25,13 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+
+      $('.navbar-nav>li>a').click(function(){
+        $('.navbar-collapse').collapse('hide');
+      });
+
+
+
       if ($(window).width() <= 770){
       $.backstretch('../assets/img/bg.jpg');
       $('#background').animate({'opacity': '0'}, 0);
