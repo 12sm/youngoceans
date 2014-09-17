@@ -52,6 +52,9 @@ var Roots = {
         $('body').addClass(link[1]);
         $('body').addClass(link[3]);
         }
+        if ($('#wpadminbar').length) {
+          $('body').addClass('logged-in admin-bar');
+        };
       });
 
       function BGResize(){
