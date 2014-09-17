@@ -7,7 +7,7 @@
    Base
    ========================================================================== */
 
-h1,h2,h3,h4,p,a{
+h1,h2,h3,h4,p,a,.song-sheet>li{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
    color: #fff;
@@ -908,6 +908,7 @@ html[xmlns] .slides {display: block;}
    ul.song-sheets {
 -webkit-column-count: 2;
 font-size: 18px;
+margin-bottom: 75px;
 }
    #social .floatright {
 width: 35%;
