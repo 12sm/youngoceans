@@ -908,6 +908,7 @@ html[xmlns] .slides {display: block;}
    ul.song-sheets {
 -webkit-column-count: 2;
 font-size: 18px;
+padding-left: 0px;
 margin-bottom: 75px;
 }
    #social .floatright {
