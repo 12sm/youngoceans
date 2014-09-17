@@ -46,7 +46,7 @@ var Roots = {
         link = $(this).attr('href').split('/');
         $('body').removeAttr('class');
 
-        if ( link.length < 3){
+        if ( link.length < 3 || link.length == 1){
           $('body').addClass('home');
         } else{
         $('body').addClass(link[1]);
