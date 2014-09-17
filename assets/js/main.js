@@ -108,6 +108,21 @@ resources: {
 
     }
   },
+  discographies: {
+    init: function() {
+
+      $(".disco-carou").owlCarousel({
+
+      autoPlay: false, //Set AutoPlay to 3 seconds
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      itemsMobile: [479, 1]
+
+  });
+
+    }
+  },
   discography: {
     init: function(){
       $(".disco-carou").owlCarousel({
