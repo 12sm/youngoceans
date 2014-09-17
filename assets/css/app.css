@@ -899,6 +899,10 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   ul.song-sheets {
+-webkit-column-count: 2;
+font-size: 18px;
+}
    #social .floatright {
 width: 35%;
 float: right;
