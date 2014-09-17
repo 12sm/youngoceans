@@ -441,6 +441,9 @@ background: transparent;
 li.song-sheet {
 padding: 5px 0px;
 }
+.resource-title{
+   margin-bottom: 50px;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
