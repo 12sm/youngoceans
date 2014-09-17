@@ -80,7 +80,19 @@ var Roots = {
       });
     }
   },
+resources: {
+    init: function() {
+      // JavaScript to be fired on the home page
+      $('.fancypdf').fancybox({
+            'autoSize'      : false,
+            'width'         : "80%",
+            'height'        : "80%",
+            'type'          : 'iframe',
+            'aspectRatio'   : true
+      });
 
+    }
+  },
    single_discographies: {
     init: function() {
 
