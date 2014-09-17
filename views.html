@@ -74,15 +74,15 @@
   <!-- wpv-loop-start -->
   <div class="row ">
     <div class="col-sm-12 disco-slider">
+      [wpv-view name="discography-page"]
       <wpv-loop>
-        <h1 class='album-title'>[wpv-post-title]</h1>
           <div class="row" id='[wpv-post-title]'>
-            <div class="col-md-7  col-lg-8 ">
+            <div class="col-sm-6 col-md-5 col-md-push-1 col-lg-4 col-lg-push-2">
               <div class='vid-thumb album-img'>
               [types field="album-image" size="medium" align="none" resize="proportional" class="img-responsive"][/types]
               </div>
             </div>
-            <div class="col-md-5 col-lg-4 ">
+            <div class="col-sm-6 col-md-5 col-md-push-1 col-lg-4 col-lg-push-2">
               <div class="spotify-player">
                 [types field="spotify"][/types]
               </div>
@@ -95,8 +95,7 @@
               <p>[types field="description"][/types]</p>
             </div>
           </div>
-              <h2>More Albums</h2>
-      [wpv-view name="discography-page" ids='[wpv-post-id]']
+
         </div>
       </wpv-loop>
 
