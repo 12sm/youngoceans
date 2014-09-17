@@ -65,19 +65,20 @@ var Roots = {
       BGResize();
       $(window).resize(function(){
         BGResize();
-      })
-    }
-  },
-  // Home page
-  home: {
-    init: function() {
-      // JavaScript to be fired on the home page
+      });
       $('#home-slider').flexslider({
         animation: 'fade',
         animationSpeed: 500,
         directionNav: true,
         controlNav: true
       });
+    }
+  },
+  // Home page
+  home: {
+    init: function() {
+      // JavaScript to be fired on the home page
+
     }
   },
 resources: {
