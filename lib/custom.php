@@ -56,7 +56,7 @@ function trim_shortcode($atts, $content = '') {
   return $content;
 }
 
-add_image_size( 'vid-thumb', 480, 360, false );
+add_image_size( 'vid-thumb', 480, 360);
 
 define( 'UPLOADS', ''.'assets' );
 
