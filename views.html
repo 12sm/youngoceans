@@ -279,7 +279,7 @@ VID.is_iDevice = function() {
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
         playlist: yoceans_playlist,
-        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0, 'playlist' : yoceans_playlist, 'wmode' : 'transparent' },
+        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0, 'playlist' : yoceans_playlist, 'wmode' : 'transparent', html5: 1 },
         disablekb: 0,
         rel : 0,
         loop: 1,
@@ -314,7 +314,7 @@ VID.is_iDevice = function() {
         height: '100%',
         width: '100%',
         videoId: yoceans_channel_array[videoIndex],
-        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0},
+        playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo' : 0 html5: 1},
         disablekb: 0,
         rel : 0,
         events: {
@@ -434,10 +434,6 @@ window.playNextVideo = function() {
 </script>
   <!-- wpv-loop-end -->
   [/wpv-items-found]
-  [wpv-no-items-found]
-    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
-  [/wpv-no-items-found]
-[wpv-layout-end]
 
 
 

@@ -420,6 +420,8 @@ overflow: hidden;
 display: inline-block;
 margin-top: 10px;
 position: relative;
+background: transparent;
+height: 30px;
 }
 .floatright{
    text-align: center;
