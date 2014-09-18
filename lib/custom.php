@@ -26,6 +26,7 @@ function views_index() {
     return $paged + $i;
 }
 
+//For Video BGs
 add_shortcode('video-id', 'parse_Id');
 function parse_Id($atts){
   $defaults_array = array('url' => null);
@@ -34,6 +35,17 @@ function parse_Id($atts){
   preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $link, $matches);
   return "{$matches[0]}";
   }
+
+//For Video Page
+add_shortcode('video-embed', 'get_Embed');
+function get_Embed($atts){
+  $defaults_array = array('url' => null);
+    shortcode_atts( $defaults_array, $atts );
+    $url = $atts['url'];
+    preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $url, $matches);
+  $id = $matches[0];
+  return  "http://www.youtube.com/embed/" . $id;
+}
 
 add_shortcode('trim', 'trim_shortcode');
 function trim_shortcode($atts, $content = '') {
