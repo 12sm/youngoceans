@@ -193,6 +193,13 @@ resources: {
   videos: {
     init: function() {
       // JavaScript to be fired on the about us page
+       $('.fancyvid').fancybox({
+            'autoSize'      : false,
+            'width'         : "80%",
+            'height'        : "80%",
+            'type'          : 'iframe',
+            'aspectRatio'   : true
+      });
     }
   },
 
