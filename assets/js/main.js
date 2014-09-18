@@ -81,7 +81,7 @@ var Roots = {
 
     }
   },
-  video: {
+  shop: {
     init: function() {
       // JavaScript to be fired on the home page
 
