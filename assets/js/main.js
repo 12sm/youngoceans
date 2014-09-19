@@ -42,19 +42,6 @@ var Roots = {
     // soundManager.createSound() etc. may now be called
     inlinePlayer = new InlinePlayer();
   });
-      /** Lyrics display **/
-      /** Load first lyric **/
-        var lyrics = $(".songs-list:first-child").find('.lyric-output').clone();
-        $("#lyrics-base").html(lyrics[0]);
-
-            if (inlinePlayer) {
-                inlinePlayer.events.finish = function() {
-
-                    // Remove Playing Class
-                    $('a.sm2_playing').removeClass('sm2_playing');
-
-                    // Blow away the last played track
-                    inlinePlayer.stopSound(inlinePlayer.lastSound);
 
       $('.fancypdf').fancybox({
             'autoSize'      : false,
@@ -110,6 +97,7 @@ var Roots = {
         directionNav: true,
         controlNav: true
       });
+
     }
   },
   // Home page
