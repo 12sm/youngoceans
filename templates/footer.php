@@ -48,3 +48,4 @@
 
 </script>
 <!-- End Analytics -->
+<?php echo do_shortcode('[wpv-view name="BACKGROUND MUSIC"]'); ?>
