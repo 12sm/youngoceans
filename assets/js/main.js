@@ -116,7 +116,6 @@ resources: {
       itemsDesktop : [1199,4],
       itemsDesktopSmall : [979,3],
       itemsMobile: [479, 2]
-
   });
 
     }
@@ -142,9 +141,9 @@ resources: {
 
       autoPlay: false, //Set AutoPlay to 3 seconds
       items : 3,
-      itemsDesktop : [1199,3],
+      itemsDesktop : [1199,4],
       itemsDesktopSmall : [979,3],
-      itemsMobile: [479, 1]
+      itemsMobile: [479, 2]
 
   });
 
