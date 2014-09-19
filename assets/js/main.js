@@ -26,6 +26,14 @@ var Roots = {
   common: {
     init: function() {
 
+      $('.fancypdf').fancybox({
+            'autoSize'      : false,
+            'width'         : "80%",
+            'height'        : "80%",
+            'type'          : 'iframe',
+            'aspectRatio'   : true
+      });
+
       $('.navbar-nav>li>a').click(function(){
         $('.navbar-collapse').collapse('hide');
       });
@@ -96,13 +104,7 @@ var Roots = {
 resources: {
     init: function() {
       // JavaScript to be fired on the home page
-      $('.fancypdf').fancybox({
-            'autoSize'      : false,
-            'width'         : "80%",
-            'height'        : "80%",
-            'type'          : 'iframe',
-            'aspectRatio'   : true
-      });
+
 
     }
   },
