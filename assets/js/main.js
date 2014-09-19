@@ -171,7 +171,7 @@ resources: {
     $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
-      items : 3,
+      items : 4,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       itemsMobile: [479, 2]
