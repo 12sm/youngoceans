@@ -25,7 +25,6 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-debugger;
    soundManager.setup({
   // where to find flash audio SWFs, as needed
   url: '/assets/js/',
@@ -38,11 +37,6 @@ debugger;
     $('#stop-player').click(function(){
   soundManager.togglePause('bgSound');
 });
-
-
-
-
-
 
       $('.fancypdf').fancybox({
             'autoSize'      : false,
