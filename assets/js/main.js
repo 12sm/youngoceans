@@ -111,7 +111,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
 
- shopifyEmbed();
+ var ShopifyStoreConfig = {shop:"young-oceans.myshopify.com", collections:[25880931,26665103,26699619]};
+ (function() {
+ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+ s.src = "//widgets.shopifyapps.com/assets/shopifystore.js";
+ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+ })();
     }
   },
 resources: {
