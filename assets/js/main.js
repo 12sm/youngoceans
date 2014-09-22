@@ -27,7 +27,6 @@ var Roots = {
     init: function() {
 
 
-          debugger;
 soundManager.setup({
 
   // where to find flash audio SWFs, as needed
@@ -39,7 +38,7 @@ soundManager.setup({
 
 
           soundManager.createSound({
-            id:'loopTest',
+            id:'bgLoop',
             url:'http://youngoceans.12southdev.com/assets/01-Better-Than.mp3',
             loops:10,
             autoLoad:true,
@@ -50,7 +49,9 @@ soundManager.setup({
           });
               }
 });
-
+$('#stop-player').click(function(){
+  soundManager.togglePause('bgLoop');
+});
     /*  soundManager.setup({
   // disable or enable debug output
   debugMode: true,
