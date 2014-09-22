@@ -31,7 +31,9 @@ debugger;
   url: '/assets/js/',
        debugMode: true,
           debugFlash: true,
-  onready: playBG()
+  onready: function(){
+    playBG();
+  }
 });
 
 
