@@ -31,14 +31,12 @@ var Roots = {
   url: '/assets/js/',
        debugMode: true,
           debugFlash: true,
-  onready: window.playBG()
+  onready: playBG()
 });
 
 
 
-$('#stop-player').click(function(){
-  soundManager.togglePause('bgSound');
-});
+
 
 
       $('.fancypdf').fancybox({

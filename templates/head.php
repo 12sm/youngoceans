@@ -23,11 +23,12 @@ http://12southmusic.com/
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <?php
+  echo do_shortcode('[wpv-view name="BACKGROUND MUSIC"]');
     wp_head();
     echo do_shortcode('[wpv-view name="video-backgrounds"]');
     wp_register_script('roots_activate', get_template_directory_uri() . '/assets/js/main.js', false, null, false);
     wp_enqueue_script('roots_activate');
-    echo do_shortcode('[wpv-view name="BACKGROUND MUSIC"]');
+
   ?>
 
 
