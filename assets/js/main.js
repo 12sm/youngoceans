@@ -38,7 +38,7 @@ soundManager.setup({
 
 
           soundManager.createSound({
-            id:'bg',
+            id:'bgSound',
             url:'http://youngoceans.12southdev.com/assets/01-Better-Than.mp3',
             loops:10,
             autoLoad:true,
@@ -50,7 +50,7 @@ soundManager.setup({
               }
 });
 $('#stop-player').click(function(){
-  soundManager.togglePause('bg');
+  bgSound.togglePause();
 });
     /*  soundManager.setup({
   // disable or enable debug output
