@@ -31,7 +31,7 @@ var Roots = {
   url: '/assets/js/',
        debugMode: true,
           debugFlash: true,
-  onready: window.playBG();
+  onready: window.playBG
 });
 
 
