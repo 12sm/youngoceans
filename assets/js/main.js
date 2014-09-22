@@ -27,16 +27,6 @@ var Roots = {
     init: function() {
 
 
-soundManager.setup({
-
-  // where to find flash audio SWFs, as needed
-  url: '/assets/js/',
-       debugMode: true,
-          debugFlash: true,
-  onready: function() {
-          alert('SM2 Loaded');
-        }
-      });
 
 $('#stop-player').click(function(){
   soundManager.togglePause('bgSound');
