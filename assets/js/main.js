@@ -36,7 +36,7 @@ var Roots = {
 });
     $('#stop-player').click(function(){
       debugger;
-  window.soundManager.togglePause('bgSound');
+  window.soundManager.togglePause();
 });
 
       $('.fancypdf').fancybox({
