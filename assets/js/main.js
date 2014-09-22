@@ -37,7 +37,9 @@ var Roots = {
    function stopPlayer(){
     window.soundManager.togglePause('bgSound');
    }
-    $('#stop-player').click(function(){
+    $('#stop-player').click(function(evt){
+      evt.stopPropagation();
+      evt.preventDefault();
       debugger;
     stopPlayer();
 });
