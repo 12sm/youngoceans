@@ -40,7 +40,7 @@ soundManager.setup({
 
           soundManager.createSound({
             id:'loopTest',
-            url:'http://youngoceans.12southdev.com/assets/03-face-of-the-deep-1.mp3',
+            url:'http://youngoceans.12southdev.com/assets/03-face-of-the-deep-11.mp3',
             loops:10,
             autoLoad:true,
             onload:function() {
