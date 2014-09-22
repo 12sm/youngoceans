@@ -34,9 +34,12 @@ var Roots = {
     playBG();
   }
 });
+   function stopPlayer(){
+    window.soundManager.togglePause('bgSound');
+   }
     $('#stop-player').click(function(){
       debugger;
-  window.soundManager.togglePause();
+    stopPlayer();
 });
 
       $('.fancypdf').fancybox({
