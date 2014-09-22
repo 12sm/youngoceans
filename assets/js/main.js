@@ -40,7 +40,6 @@ var Roots = {
     $('#stop-player').click(function(evt){
       evt.stopImmediatePropagation();
       evt.preventDefault();
-      debugger;
     stopPlayer();
 });
 
