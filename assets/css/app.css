@@ -442,7 +442,9 @@ background: transparent;
 li.song-sheet {
 padding: 5px 0px;
 background: rgba(56, 56, 56, 0.85);
-padding: 5px 20px;
+padding: 8px 20px;
+font-weight: 100;
+letter-spacing: 2px;
 }
 
 .resource-title{
