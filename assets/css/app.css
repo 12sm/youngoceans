@@ -90,7 +90,7 @@ position: fixed;
 }
 #background{opacity: 0;}
 div#bg-overlay {
-opacity: .3;
+opacity: .7;
 background: rgb(175,175,175);
 z-index: 0.5;
 }
