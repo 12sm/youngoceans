@@ -1008,6 +1008,13 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   div#stop-player {
+float: left;
+font-size: 12px!important;
+margin-top: -10px;
+white-space: normal!important;
+max-width: 50%;
+}
    .spotify-player > iframe {
    margin: 0;
    float: right;

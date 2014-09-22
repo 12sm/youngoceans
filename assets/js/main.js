@@ -36,19 +36,6 @@ soundManager.setup({
   onready: function() {
           alert('SM2 Loaded');
 
-
-          soundManager.createSound({
-            id:'bgSound',
-            url:'http://youngoceans.12southdev.com/assets/01-Better-Than.mp3',
-            loops:10,
-            autoLoad:true,
-            onload:function() {
-          debugger;
-              this.play();
-            }
-          });
-              }
-});
 $('#stop-player').click(function(){
   soundManager.togglePause('bgSound');
 });
