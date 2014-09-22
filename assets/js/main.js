@@ -50,7 +50,7 @@ soundManager.setup({
               }
 });
 $('#stop-player').click(function(){
-  window.bgSound.togglePause();
+  soundManager.togglePause('bgSound');
 });
     /*  soundManager.setup({
   // disable or enable debug output
