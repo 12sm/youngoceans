@@ -35,6 +35,9 @@ debugger;
     playBG();
   }
 });
+    $('#stop-player').click(function(){
+  soundManager.togglePause('bgSound');
+});
 
 
 
