@@ -35,7 +35,7 @@ var Roots = {
   }
 });
     $('#stop-player').click(function(){
-      alert('stop clicked');
+      debugger;
   soundManager.togglePause('bgSound');
 });
 
