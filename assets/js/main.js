@@ -34,10 +34,7 @@ var Roots = {
     playBG();
   }
 });
-    $('#stop-player').click(function(){
-      debugger;
-  window.soundManager.togglePause('bgSound');
-});
+
 
       $('.fancypdf').fancybox({
             'autoSize'      : false,
