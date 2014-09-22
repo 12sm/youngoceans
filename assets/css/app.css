@@ -93,7 +93,7 @@ opacity: .3;
 background: rgb(175,175,175);
 z-index: 0.5;
 }
-.bg, .about p, .contact .main{background: rgba(175,175,175,.4); padding: 25px;}
+.bg, .about p, .contact .main{background: rgba(56, 56, 56, 0.85); padding: 25px;}
 div#ajaxcontent * {
 z-index: 2;
 }
@@ -441,7 +441,10 @@ background: transparent;
    ========================================================================== */
 li.song-sheet {
 padding: 5px 0px;
+background: rgba(56, 56, 56, 0.85);
+padding: 5px 20px;
 }
+
 .resource-title{
    margin-bottom: 50px;
 }
@@ -910,7 +913,7 @@ html[xmlns] .slides {display: block;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
    ul.song-sheets {
--webkit-column-count: 2;
+-webkit-column-count: 3;
 font-size: 18px;
 padding-left: 0px;
 margin-bottom: 75px;
