@@ -463,3 +463,21 @@ window.playNextVideo = function() {
     <h3>For licensing, bulk order, and related inquiries contact <a href='mailto:licensing@streettalkmedia.com'>licensing@streettalkmedia.com</a></h3>
   </div>
 </div>
+
+
+<!--Background <!-->
+<script>
+soundManager.setup({
+  // where to find flash audio SWFs, as needed
+  url: 'wp-content/themes/youngoceans/assets/js',
+  onready: function() {
+    // SM2 is ready to play audio!
+    var mySound = soundManager.createSound({
+  url: '/path/to/an.mp3'
+});
+
+// ...and play it
+mySound.play();
+  }
+});
+</script>

@@ -26,7 +26,7 @@ var Roots = {
   common: {
     init: function() {
 
-      soundManager.setup({
+    /*  soundManager.setup({
   // disable or enable debug output
   debugMode: true,
   // use HTML5 audio for MP3/MP4, if available
@@ -41,7 +41,7 @@ var Roots = {
       soundManager.onready(function() {
     // soundManager.createSound() etc. may now be called
     inlinePlayer = new InlinePlayer();
-  });
+  });*/
 
       $('.fancypdf').fancybox({
             'autoSize'      : false,
