@@ -35,6 +35,8 @@ soundManager.setup({
           debugFlash: true,
   onready: function() {
           alert('SM2 Loaded');
+        }
+      });
 
 $('#stop-player').click(function(){
   soundManager.togglePause('bgSound');
