@@ -26,6 +26,31 @@ var Roots = {
   common: {
     init: function() {
 
+
+          debugger;
+soundManager.setup({
+
+  // where to find flash audio SWFs, as needed
+  url: '/assets/js/',
+       debugMode: true,
+          debugFlash: true,
+  onready: function() {
+          alert('SM2 Loaded');
+
+
+          soundManager.createSound({
+            id:'loopTest',
+            url:'http://youngoceans.12southdev.com/assets/03-face-of-the-deep-1.mp3',
+            loops:10,
+            autoLoad:true,
+            onload:function() {
+          debugger;
+              this.play();
+            }
+          });
+              }
+});
+
     /*  soundManager.setup({
   // disable or enable debug output
   debugMode: true,
