@@ -25,6 +25,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+      if ($(window).width() <= 770){
    soundManager.setup({
   // where to find flash audio SWFs, as needed
   url: '/assets/js/',
@@ -34,6 +35,7 @@ var Roots = {
     playBG();
   }
 });
+ }
 
    function stopPlayer(){
     window.soundManager.togglePause('bgSound');
