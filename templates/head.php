@@ -42,5 +42,4 @@ http://12southmusic.com/
   })();
 </script>
 <noscript>Please enable javascript, or <a href="http://young-oceans.myshopify.com">click here</a> to visit my <a href="http://www.shopify.com/tour/ecommerce-website">ecommerce web site</a> powered by Shopify.</noscript>
-
 </head>
