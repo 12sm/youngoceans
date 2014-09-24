@@ -7,7 +7,7 @@
         </div>
       </div>
       <div id="social" class="col-sm-5 social-nav">
-                      <div id="stop-player" class='btn btn-click'>Click to Stop Music</div>
+                      <div id="stop-player" class='btn btn-click'><p class='stop-music'>Silence Audio</p><p class="start-music hide">Enable Audio</div>
 
           <div class="floatright">
 

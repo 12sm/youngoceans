@@ -34,6 +34,14 @@ var Roots = {
     playBG();
   }
 });
+   function onPlayerPause(){
+    $('.start-music').removeClass('hide');
+    $('.stop-music').addClass('hide');
+   }
+   function onPlayerPlay(){
+    $('.start-music').addClass('hide');
+    $('.stop-music').removeClass('hide');
+   }
    function stopPlayer(){
     window.soundManager.togglePause('bgSound');
    }
