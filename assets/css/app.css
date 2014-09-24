@@ -116,6 +116,9 @@ border: 2px solid #fff;
 border-radius: 0px;
 text-transform: uppercase;
 }
+#stop-player p {
+margin-bottom: 0px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
