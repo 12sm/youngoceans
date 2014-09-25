@@ -75,6 +75,7 @@ opacity: .5;
 font-family: 'proxima-nova'!important;
 font-size: 22px;
 color: #fff;
+font-weight: 600;
 }
 #background, #background iframe, #background_show, #bg-overlay {
 top: 0;
@@ -927,7 +928,7 @@ padding-left: 0px;
 margin-bottom: 75px;
 }
    #social .floatright {
-width: 35%;
+width: 55%;
 float: right;
 }
       .vid-thumb.album-img {
