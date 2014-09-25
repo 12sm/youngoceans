@@ -118,6 +118,8 @@ text-transform: uppercase;
 }
 #stop-player p {
 margin-bottom: 0px;
+background: transparent;
+padding: 0px;
 }
 /* ==========================================================================
    Header
