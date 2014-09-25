@@ -45,7 +45,16 @@ var Roots = {
       evt.preventDefault();
     stopPlayer();
 });
-
+     if ($(window).width() <= 770){
+      $('.fancypdf').fancybox({
+            'autoSize'      : false,
+            'width'         : "100%",
+            'height'        : "100%",
+            'type'          : 'iframe',
+            'aspectRatio'   : true
+      });
+    }
+    if ($(window).width() >= 770){
       $('.fancypdf').fancybox({
             'autoSize'      : false,
             'width'         : "80%",
@@ -53,6 +62,7 @@ var Roots = {
             'type'          : 'iframe',
             'aspectRatio'   : true
       });
+    }
 
       $('.navbar-nav>li>a').click(function(){
         $('.navbar-collapse').collapse('hide');
