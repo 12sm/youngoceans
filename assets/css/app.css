@@ -467,6 +467,10 @@ letter-spacing: 2px;
 .resource-title{
    margin-bottom: 50px;
 }
+ul.song-sheets {
+padding-left: 0px;
+list-style: none;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
