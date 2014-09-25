@@ -30,7 +30,7 @@ h2{
    letter-spacing: 10px;
 }
 h3{
-   font-size: 16px;
+   font-size: 12px;
    font-weight: 600;
 }
 .disco-carou{
@@ -1027,6 +1027,9 @@ div#social {
 padding-top: 30px;
 }
 div#bg-overlay {z-index: 1}
+#stop-player{
+   display: block;
+}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
