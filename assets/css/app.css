@@ -85,7 +85,7 @@ right: 0;
 display: block;
 z-index: 0;
 }
-div#bg-overlay {z-index: 1}
+
 #background, #bg-overlay {
 position: fixed;
 }
@@ -1026,7 +1026,7 @@ height: 50px;
 div#social {
 padding-top: 30px;
 }
-
+div#bg-overlay {z-index: 1}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
