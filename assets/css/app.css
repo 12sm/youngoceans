@@ -404,7 +404,7 @@ margin: 0 auto;
 .about h2 {
 margin-top: 75px;
 }
-.blog-info p {
+.blog-info p, .entry-content p{
 word-break: break-word;
 }
 /* ==========================================================================
