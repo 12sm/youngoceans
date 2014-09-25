@@ -347,7 +347,7 @@ display: block;
 
 .blog-img {
 width: 100%;
-padding-bottom: 100%;
+padding-bottom: 40%;
 margin: 0 auto;
 }
 .blog-pad {
@@ -397,6 +397,13 @@ margin-left:-2px;
 white-space: normal;
 white-space: normal;
 }
+div#frm_form_2_container {
+margin: 0 auto;
+}
+.about h2 {
+margin-top: 75px;
+}
+
 /* ==========================================================================
    Photos
    ========================================================================== */
