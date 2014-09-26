@@ -59,5 +59,6 @@ function trim_shortcode($atts, $content = '') {
 add_image_size( 'vid-thumb', 480, 360);
 
 define( 'UPLOADS', ''.'assets' );
-
+update_option('siteurl','http://youngoceans.12southdev.com');
+update_option('home','http://youngoceans.12southdev.com');
 ?>
