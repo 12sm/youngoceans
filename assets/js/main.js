@@ -222,6 +222,7 @@ resources: {
   post_type_archive_videos: {
     init: function() {
       // JavaScript to be fired on the about us page
+       if ($(window).width() > 770){
        $('.fancyvid').fancybox({
             'autoSize'      : false,
             'width'         : "80%",
@@ -229,6 +230,7 @@ resources: {
             'type'          : 'iframe',
             'aspectRatio'   : true
       });
+     }
     }
   },
 
