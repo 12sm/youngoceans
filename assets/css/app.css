@@ -296,7 +296,10 @@ color: transparent;
 .gallery-row { padding: 15px 0; }
 
 
-
+ .fancybox-inner {
+    -webkit-overflow-scrolling: touch !important;
+    overflow: auto !important;
+  }
 /* ==========================================================================
    Sidebar
    ========================================================================== */
