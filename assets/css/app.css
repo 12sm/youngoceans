@@ -1082,9 +1082,7 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #social .floatright {
-width: 55%;
-}
+    
    div#stop-player.btn.btn-click{
    display: block!important;
 }
@@ -1165,6 +1163,9 @@ body { background: url(../img/bg.jpg) no-repeat; background-size: cover; backgro
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+   #social .floatright {
+width: 55%;
+}
    ul#menu-primary-navigation {
 margin-top: 10px;
 width: 70%;
