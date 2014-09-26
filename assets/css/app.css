@@ -980,7 +980,7 @@ padding-left: 0px;
 margin-bottom: 75px;
 }
    #social .floatright {
-width: 55%;
+width: 65%;
 float: right;
 }
       .vid-thumb.album-img {
@@ -1082,6 +1082,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #social .floatright {
+width: 55%;
+}
    div#stop-player.btn.btn-click{
    display: block!important;
 }
