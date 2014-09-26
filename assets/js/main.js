@@ -29,6 +29,7 @@ var Roots = {
       if ($(window).width() < 778){
       
        $('.fancyvid').click(function(){
+        debugger;
           var vidLink = $(this).attr('link');
           alert('link is' + vidLink);
           window.location.href = vidlink;
