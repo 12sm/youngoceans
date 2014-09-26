@@ -31,7 +31,6 @@ var Roots = {
        $('.fancyvid').click(function(){
         debugger;
           var vidLink = $(this).attr('link');
-          alert('link is' + vidLink);
           window.location.href = vidLink;
         });
      }
