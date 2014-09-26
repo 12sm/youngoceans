@@ -31,7 +31,7 @@ var Roots = {
        $('.fancyvid').click(function(){
           var vidLink = $(this).attr('link');
           window.location.href = vidLink;
-          $('.menu-shop > a').click(function(){
+          $('.menu-shop>a').click(function(){
             debugger;
           var vidLink = $(this).attr('title');
           window.location.href = vidLink;
