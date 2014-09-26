@@ -231,6 +231,11 @@ videos: {
             'type'          : 'iframe',
             'aspectRatio'   : true
       });
+       
+       $('.fancyvid').click(function(){
+          var vidLink = $(this).attr('link'));});
+          window.location = vidlink;
+        });
     }
   },
   // About us page, note the change from about-us to about_us.
