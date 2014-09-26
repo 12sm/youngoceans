@@ -259,6 +259,12 @@ margin-left: -5%;
 .vid-padding {
 padding: 30px;
 }
+.no-click-full{
+   pointer-events: all;
+}
+.no-click-mobile{
+   pointer-events:none ;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -1018,7 +1024,12 @@ width: 20%;
 .slide-pad{
    padding: 25px;
 }
-
+.no-click-full{
+   pointer-events: none;
+}
+.no-click-mobile{
+   pointer-events:all ;
+}
 .content-info {position: fixed; bottom: 0; width: 100%;}
 div#bg-overlay {z-index: 1}
 
