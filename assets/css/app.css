@@ -1020,6 +1020,8 @@ width: 20%;
 }
 
 .content-info {position: fixed; bottom: 0; width: 100%;}
+div#bg-overlay {z-index: 1}
+
  }
 @media only screen
 and (min-device-width : 768px)
@@ -1030,7 +1032,7 @@ height: 50px;
 div#social {
 padding-top: 30px;
 }
-div#bg-overlay {z-index: 1}
+
 #stop-player{
    display: block;
 }
