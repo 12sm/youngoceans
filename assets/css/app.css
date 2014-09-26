@@ -980,7 +980,7 @@ padding-left: 0px;
 margin-bottom: 75px;
 }
    #social .floatright {
-width: 55%;
+width: 65%;
 float: right;
 }
       .vid-thumb.album-img {
@@ -1124,6 +1124,7 @@ left: 0px;
 
 
 div#social {
+   width: 55%;
 padding-top: 15px;
 }
 .topspin-widget.topspin-widget-email-for-media {
