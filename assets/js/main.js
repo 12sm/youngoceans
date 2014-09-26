@@ -23,8 +23,19 @@
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
   // All pages
-  common: {
+  common: { 
     init: function() {
+
+      if ($(window).width() <= 770){
+      
+       $('.fancyvid').on("tap", function(){
+          var vidLink = $(this).attr('link');
+          alert('link is' + vidLink);
+          window.location(vidlink);
+        });
+     }
+
+
       if ($(window).width() <= 770){
    soundManager.setup({
   // where to find flash audio SWFs, as needed
@@ -33,9 +44,9 @@ var Roots = {
           debugFlash: true,
   onready: function(){
     playBG();
-  }
-});
- }
+      }
+    });
+     }
 
    function stopPlayer(){
     window.soundManager.togglePause('bgSound');
@@ -233,13 +244,7 @@ videos: {
             'aspectRatio'   : true
       });
        }
-       if ($(window).width() <= 770){
-       $('.fancyvid').click(function(){
-          var vidLink = $(this).attr('link');
-          alert('link is' + vidLink);
-          window.location(vidlink);
-        });
-     }
+
     }
   },
   // About us page, note the change from about-us to about_us.
