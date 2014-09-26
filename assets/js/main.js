@@ -28,7 +28,7 @@ var Roots = {
 
       if ($(window).width() <= 770){
       
-       $('.fancyvid').on("tap", function(){
+       $('.fancyvid').click(function(){
           var vidLink = $(this).attr('link');
           alert('link is' + vidLink);
           window.location(vidlink);
