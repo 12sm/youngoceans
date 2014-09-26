@@ -871,6 +871,9 @@ html[xmlns] .slides {display: block;}
       only screen and (min-device-pixel-ratio: 1.5){
 
    #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+      .topspin-widget.topspin-widget-email-for-media {
+height: initial;
+}
       background-image: url(fancybox_sprite@2x.png);
       background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
    }
