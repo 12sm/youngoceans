@@ -33,7 +33,6 @@ var Roots = {
           window.location.href = vidLink;
           });
        $('.menu-shop>a').click(function(){
-            debugger;
           var vidLink = $(this).attr('title');
           window.location.href = vidLink;
         });
