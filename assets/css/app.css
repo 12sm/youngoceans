@@ -122,7 +122,7 @@ margin-bottom: 0px;
 background: transparent;
 padding: 0px;
 }
-div#stop-player.btn.btn-click{
+div#stop-player.btn{
    display: none!important;
 }
 /* ==========================================================================
