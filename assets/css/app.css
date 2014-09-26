@@ -123,7 +123,7 @@ background: transparent;
 padding: 0px;
 }
 div#stop-player.btn.btn-click{
-   display: none;
+   display: none!important;
 }
 /* ==========================================================================
    Header
@@ -1073,14 +1073,11 @@ div#social {
 padding-top: 30px;
 }
 
-#stop-player{
-   display: block;
-}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
    #stop-player{
-   display: block;
+   display: block!important;
 }
    div#stop-player {
 float: left;

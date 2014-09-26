@@ -40,7 +40,7 @@ var Roots = {
    }
 
 
-      if ($(window).width() <= 770){
+      if ($(window).width() > 992){
    soundManager.setup({
   // where to find flash audio SWFs, as needed
   url: '/assets/js/',
