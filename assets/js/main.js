@@ -45,15 +45,8 @@ var Roots = {
       evt.preventDefault();
     stopPlayer();
 });
-     if ($(window).width() <= 770){
-      $('.fancypdf').fancybox({
-            'autoScale'      : true,
-            'width'         : "100%",
-            'type'          : 'iframe',
-            'aspectRatio'   : true
-      });
-    }
-    if ($(window).width() >= 770){
+
+    if ($(window).width() > 770){
       $('.fancypdf').fancybox({
             'autoSize'      : false,
             'width'         : "80%",
