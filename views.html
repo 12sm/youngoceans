@@ -481,3 +481,36 @@ mySound.play();
   }
 });
 </script>
+
+
+
+<!-- MORE ALBUMS <!-->
+[wpv-layout-start]
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
+  <div class='row'>
+      <div class='col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2'>
+      <div class='disco-carou'>
+        <ul class='more-album-nav'>
+            <li class='nav-left'><i class='fa fa-angle-left'></i> </li>
+            <li class='nav-right'><i class="fa fa-angle-right"></i></li>
+        </ul>
+    <wpv-loop>
+      <div class="item">
+        <a href="[wpv-post-url]">
+                  <h3>[wpv-post-title]</h3>
+          <div class="img-container">
+            <img src="[types field="album-image" size="thumbnail" url="true" resize="proportional"][/types]" class="img-responsive">
+          </div>
+        </a>
+      </div>
+    </wpv-loop>
+    </div>
+    </div>
+  </div>
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
