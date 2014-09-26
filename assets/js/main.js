@@ -32,7 +32,7 @@ var Roots = {
         debugger;
           var vidLink = $(this).attr('link');
           alert('link is' + vidLink);
-          window.location.href = vidlink;
+          window.location.href = vidLink;
         });
      }
 
