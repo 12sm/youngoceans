@@ -943,7 +943,7 @@ html[xmlns] .slides {display: block;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
    .wrap.container-fluid {
-padding-top: 50px;
+padding-top: 75px;
 }
    ul.song-sheets {
 -webkit-column-count: 3;
