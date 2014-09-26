@@ -1072,6 +1072,9 @@ and (max-device-width : 1024px)  {
 div.topspin-widget.topspin-widget-email-for-media {
 height: 75px;
 }
+footer h3{
+   display: none;
+}
 div#social {
 padding-top: 30px;
 }
