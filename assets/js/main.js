@@ -224,19 +224,22 @@ resources: {
 videos: {
     init: function() {
       // JavaScript to be fired on the about us page
-       /*$('.fancyvid').fancybox({
+       if ($(window).width() >= 770){
+       $('.fancyvid').fancybox({
             'autoSize'      : false,
             'width'         : "80%",
             'height'        : "80%",
             'type'          : 'iframe',
             'aspectRatio'   : true
-      }); */
-       
+      });
+       }
+       if ($(window).width() <= 770){
        $('.fancyvid').click(function(){
           var vidLink = $(this).attr('link');
           alert('link is' + vidLink);
           window.location = vidlink;
         });
+     }
     }
   },
   // About us page, note the change from about-us to about_us.
