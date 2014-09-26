@@ -122,6 +122,9 @@ margin-bottom: 0px;
 background: transparent;
 padding: 0px;
 }
+#stop-player{
+   display: none;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -1075,6 +1078,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   #stop-player{
+   display: block;
+}
    div#stop-player {
 float: left;
 font-size: 12px!important;
