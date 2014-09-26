@@ -355,6 +355,9 @@ li.nav-right {
 position: absolute;
 right: 0px;
 }
+.more-album-nav > li {
+top: 40%;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -955,6 +958,9 @@ html[xmlns] .slides {display: block;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   ul.more-album-nav {
+      display: none;
+   }
    .wrap.container-fluid {
 padding-top: 75px;
 }
