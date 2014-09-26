@@ -1069,8 +1069,8 @@ div#bg-overlay {z-index: 1}
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
-.topspin-widget.topspin-widget-email-for-media {
-height: 50px;
+div.topspin-widget.topspin-widget-email-for-media {
+height: initial;
 }
 div#social {
 padding-top: 30px;
