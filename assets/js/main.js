@@ -29,8 +29,10 @@ var Roots = {
       if ($(window).width() < 778){
       
        $('.fancyvid').click(function(){
-        debugger;
           var vidLink = $(this).attr('link');
+          window.location.href = vidLink;
+          $('.menu-shop > a').click(function(){
+          var vidLink = $(this).attr('title');
           window.location.href = vidLink;
         });
      }
