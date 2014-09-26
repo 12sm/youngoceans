@@ -46,7 +46,7 @@ var Roots = {
     stopPlayer();
 });
 
-    if ($(window).width() > 770){
+    if ($(window).width() > 777){
       $('.fancypdf').fancybox({
             'autoSize'      : false,
             'width'         : "80%",
