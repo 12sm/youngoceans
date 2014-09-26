@@ -1085,9 +1085,11 @@ padding-top: 30px;
    div#stop-player.btn.btn-click{
    display: block!important;
 }
+div#stop-player p{
+   font-size: 12px!important;
+}
    div#stop-player {
 float: left;
-font-size: 12px!important;
 margin-top: -10px;
 white-space: normal!important;
 max-width: 50%;
