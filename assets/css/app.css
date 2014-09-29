@@ -243,9 +243,6 @@ text-align: center;
       width: 100%;
       margin-bottom: 50px;
    }
-   .vid-thumb.album-img {
-padding-bottom: 90%;
-}
 
    .vid-thumb .fa {
 font-size: 52px;
@@ -336,9 +333,7 @@ font-size: 36px;
 a.disco-next, a.disco-prev{
    z-index: 3!important;
 }
-.vid-thumb.album-img {
-height: 380px;
-}
+
 .spotify-player > iframe {
 margin: 0 auto;
 position: relative;
@@ -442,8 +437,7 @@ word-break: break-word;
    Photos
    ========================================================================== */
 .img-pad{
-   height: 250px;
-   padding: 10px;
+   padding-bottom: 100%;
 }
 .insta-photo.col-sm-6.col-md-4.col-lg-3 {
 padding: 20px;
@@ -987,7 +981,7 @@ width: 65%;
 float: right;
 }
       .vid-thumb.album-img {
-padding-bottom: 45%;
+padding-bottom: 100%;
 }
    .vid-thumb.album-img {
 max-width: 380px;
