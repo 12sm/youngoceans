@@ -19,7 +19,7 @@
   ?>
 
   <div class="wrap container-fluid" role="document" >
-    <?php 
+    <!-- mfunc ajaxcache -->
     $postid = get_the_ID();
     fragment_cache('ajaxcontent'.$postid, DAY_IN_SECONDS, function() { ?>
     <div class="content row" id="ajaxcontent">
@@ -32,7 +32,7 @@
         </aside><!-- /.sidebar -->
       <?php endif; ?>
     </div><!-- /.content -->
-    <?php }); ?>
+    <!-- /mfunc ajaxcache -->
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
