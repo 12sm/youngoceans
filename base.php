@@ -20,8 +20,6 @@
 
   <div class="wrap container-fluid" role="document" >
     <!-- mfunc ajaxcache -->
-    $postid = get_the_ID();
-    fragment_cache('ajaxcontent'.$postid, DAY_IN_SECONDS, function() { ?>
     <div class="content row" id="ajaxcontent">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
