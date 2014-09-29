@@ -239,7 +239,7 @@ text-align: center;
 .vid-thumb{
       height: 0;
       min-width: 215px;
-      padding-bottom: 55%;
+      padding-bottom: 100%;
       width: 100%;
       margin-bottom: 50px;
    }
