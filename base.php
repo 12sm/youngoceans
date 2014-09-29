@@ -19,6 +19,9 @@
   ?>
 
   <div class="wrap container-fluid" role="document" >
+    <?php 
+    $postid = get_the_ID();
+    fragment_cache('ajaxcontent'.$postid, DAY_IN_SECONDS, function() { ?>
     <div class="content row" id="ajaxcontent">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
@@ -29,6 +32,7 @@
         </aside><!-- /.sidebar -->
       <?php endif; ?>
     </div><!-- /.content -->
+    <?php } ?>
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
