@@ -59,6 +59,20 @@ function trim_shortcode($atts, $content = '') {
 add_image_size( 'vid-thumb', 480, 360);
 
 define( 'UPLOADS', ''.'assets' );
-update_option('siteurl','http://youngoceans.12southdev.com');
-update_option('home','http://youngoceans.12southdev.com');
+
+function fragment_cache($key, $ttl, $function) {
+  if ( is_user_logged_in() ) {
+    call_user_func($function);
+    return;
+  }
+  $key = apply_filters('fragment_cache_prefix','fragment_cache_').$key;
+  $output = get_transient($key);
+  if ( empty($output) ) {
+    ob_start();
+    call_user_func($function);
+    $output = ob_get_clean();
+    set_transient($key, $output, $ttl);
+  }
+  echo $output;
+}
 ?>
