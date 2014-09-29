@@ -1154,7 +1154,7 @@ height: 32px;
 .flex-direction-nav {
 display: block;
 }
-body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; }
+body {background-size: cover; background-attachment: fixed; }
 
 }
 
