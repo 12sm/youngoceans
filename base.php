@@ -32,7 +32,7 @@
         </aside><!-- /.sidebar -->
       <?php endif; ?>
     </div><!-- /.content -->
-    <?php } ?>
+    <?php }); ?>
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
