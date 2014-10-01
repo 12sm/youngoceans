@@ -120,10 +120,11 @@ text-transform: uppercase;
 #stop-player p {
 margin-bottom: 0px;
 background: transparent;
-padding: 0px;
+padding: 10px;
 }
 div#stop-player.btn{
    display: none!important;
+   padding:0px!important;
 }
 /* ==========================================================================
    Header
