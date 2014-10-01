@@ -22,6 +22,8 @@
       </div>
     </div>
 </footer>
+
+<?php echo do_shortcode('[wpv-view name="BACKGROUND MUSIC"]'); ?>
 <?php wp_footer(); ?>
 
 <!-- Begin 12SM Network Analytics <!-->
