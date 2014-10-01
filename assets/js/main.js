@@ -39,22 +39,6 @@ var Roots = {
      
    }
 
-
-  if ($(window).width() > 992){
-   soundManager.setup({
-     // disable or enable debug output
-     debugMode: true,
-     // use HTML5 audio for MP3/MP4, if available
-     preferFlash: false,
-     useFlashBlock: true,	
-     // where to find flash audio SWFs, as needed
-     url: '/assets/js/',
-     debugMode: true,
-     debugFlash: true,
-     flashVersion: 9
-   });
-  }
-
    function stopPlayer(){
     window.soundManager.togglePause();
    }
