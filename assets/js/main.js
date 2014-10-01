@@ -40,7 +40,7 @@ var Roots = {
    }
 
    function stopPlayer(){
-    window.soundManager.togglePause();
+    window.soundManager.pauseAll();
    }
     
     $('#stop-player').click(function(evt){
