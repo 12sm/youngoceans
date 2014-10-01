@@ -40,26 +40,30 @@ var Roots = {
    }
 
 
-      if ($(window).width() > 992){
+  if ($(window).width() > 992){
    soundManager.setup({
-  // where to find flash audio SWFs, as needed
-  url: '/assets/js/',
-       debugMode: true,
-          debugFlash: true,
-  onready: function(){
-    playBG();
-      }
-    });
-     }
+     // disable or enable debug output
+     debugMode: true,
+     // use HTML5 audio for MP3/MP4, if available
+     preferFlash: false,
+     useFlashBlock: true,	
+     // where to find flash audio SWFs, as needed
+     url: '/assets/js/',
+     debugMode: true,
+     debugFlash: true,
+     flashVersion: 9
+   });
+  }
 
    function stopPlayer(){
-    window.soundManager.togglePause('bgSound');
+    window.soundManager.togglePause();
    }
+    
     $('#stop-player').click(function(evt){
       evt.stopImmediatePropagation();
       evt.preventDefault();
-    stopPlayer();
-});
+      stopPlayer();
+     });
 
     if ($(window).width() > 777){
       $('.fancypdf').fancybox({
