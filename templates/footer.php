@@ -7,6 +7,7 @@
         </div>
       </div>
       <div id="social" class="col-md-5 col-sm-6 social-nav">
+                      <?php echo do_shortcode('[wpv-view name="BACKGROUND MUSIC PLAYLIST"]'); ?>
                       <div id="stop-player" class='btn btn-click'><p class='stop-music'>Silence Audio</p><p class="start-music hide">Enable Audio</div>
 
           <div class="floatright">
