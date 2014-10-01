@@ -1,15 +1,14 @@
 <footer class="content-info container-fluid" role="contentinfo">
       <div class="row col sidebar-footer">
-      <div class="col-sm-1">
-      	<div id="stop-player" class='btn btn-click'><p class='stop-music'><i class="fa fa-volume-up"></i> ON</p><p class="start-music hide"><i class="fa fa-volume-off"></i> OFF</div>
-      </div>
-        <div class="col-md-6 col-sm-6 footer-nav mail-inline">
+        <div class="col-md-7 col-sm-6 footer-nav mail-inline">
         <div class="floatright">
            <h4>Sign Up For Our Newsletter</h4>
        <script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=25987&timestamp=1407188895"></script><div class="topspin-widget topspin-widget-email-for-media"><object type="application/x-shockwave-flash" width="250" height="55" id="TSWidget230578" data="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1407188895" ><param value="transparent" name="wmode"> <param value="always" name="allowScriptAccess" /> <param name="allowfullscreen" value="true" /> <param name="quality" value="high" /> <param name="movie" value="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1407188895" /> <param name="flashvars" value="widget_id=https://cf.topspin.net/api/v1/artist/25987/email_for_media/230578?timestamp=1407188895&amp;theme=white&amp;bgalpha=0&amp;highlightColor=ffffff&amp;displayInitialScreen=false&amp;linkHasOutline=false&amp;fontColor=#fff&amp;linkHasOutline=false" /></object></div>
         </div>
       </div>
-      <div id="social" class="col-md-5 col-sm-5 social-nav">
+      <div id="social" class="col-md-5 col-sm-6 social-nav">
+                      <div id="stop-player" class='btn btn-click'><p class='stop-music'>Silence Audio</p><p class="start-music hide">Enable Audio</div>
+
           <div class="floatright">
 
     <?php
@@ -22,8 +21,6 @@
       </div>
     </div>
 </footer>
-
-<?php echo do_shortcode('[wpv-view name="BACKGROUND MUSIC"]'); ?>
 <?php wp_footer(); ?>
 
 <!-- Begin 12SM Network Analytics <!-->
