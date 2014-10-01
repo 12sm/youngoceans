@@ -47,7 +47,7 @@ var Roots = {
      });
 
     $('#stop-player .start-music').click(function(evt){
-      window.soundManager.play();
+      window.soundManager.resumeAll();
      });
 
     if ($(window).width() > 777){
