@@ -39,14 +39,15 @@ var Roots = {
      
    }
 
-   function stopPlayer(){
-    window.soundManager.pauseAll();
-   }
-    
-    $('#stop-player').click(function(evt){
+
+    $('#stop-player .stop-music').click(function(evt){
       evt.stopImmediatePropagation();
       evt.preventDefault();
-      stopPlayer();
+      window.soundManager.pauseAll();
+     });
+
+    $('#stop-player .start-music').click(function(evt){
+      window.soundManager.play();
      });
 
     if ($(window).width() > 777){
