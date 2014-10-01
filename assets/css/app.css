@@ -239,11 +239,13 @@ text-align: center;
 .vid-thumb{
       height: 0;
       min-width: 215px;
-      padding-bottom: 100%;
+      padding-bottom: 55%;
       width: 100%;
       margin-bottom: 50px;
    }
-
+.vid-thumb.album-img{
+   padding-bottom: 100%;
+}
    .vid-thumb .fa {
 font-size: 52px;
 top: 50%;
@@ -1154,8 +1156,8 @@ height: 32px;
 .flex-direction-nav {
 display: block;
 }
-body {background-size: cover; background-attachment: fixed; }
 
+body {background: url(http://stage.youngoceans.com/assets/img/bg.jpg); background-size: cover; background-attachment: fixed; }
 }
 
 /* Large devices (large desktops, 1200px and up) */
