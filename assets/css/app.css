@@ -439,6 +439,15 @@ word-break: break-word;
 
 .blog-box h2 {
   font-size: 20px;
+  text-align:center;
+}
+
+.addthis_sharing_toolbox {
+  margin-bottom: 60px;
+  -webkit-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  -ms-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
 }
 
 /* ==========================================================================
