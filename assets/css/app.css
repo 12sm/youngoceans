@@ -443,11 +443,15 @@ word-break: break-word;
 }
 
 .addthis_sharing_toolbox {
-  margin-bottom: 60px;
+  margin-bottom: 60px!important;
   -webkit-filter: grayscale(70%);
   -moz-filter: grayscale(70%);
   -ms-filter: grayscale(70%);
   -o-filter: grayscale(70%);
+}
+
+div#atstbx2 {
+  text-align: center;
 }
 
 /* ==========================================================================
