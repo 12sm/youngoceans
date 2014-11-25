@@ -4,8 +4,7 @@
       	<div id="stop-player" class='btn btn-click'><p class='stop-music'><i class="fa fa-volume-up"></i> ON</p><p class="start-music hide"><i class="fa fa-volume-off"></i> OFF</div>
       </div>
       <div class="col-sm-3 pad-top-15">
-          <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:41crVXG3GeS8TmyWEaPZVr&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-      </div>
+<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:41crVXG3GeS8TmyWEaPZVr&size=basic&theme=dark" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>      </div>
         <div class="col-md-3 col-sm-3 footer-nav mail-inline">
         <div class="floatright">
            <h4>Sign Up For Our Newsletter</h4>

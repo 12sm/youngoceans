@@ -1110,6 +1110,7 @@ div#stop-player p{
 div#stop-player {
 float: left;
 white-space: normal!important;
+margin-top: 10px;
 width: 100%;
 }
    .spotify-player > iframe {
@@ -1143,6 +1144,9 @@ left: 0px;
 
 div#social {
 padding-top: 15px;
+}
+div#social .floatright{
+  margin-top: 15px;
 }
 .topspin-widget.topspin-widget-email-for-media {
 height: 32px;
