@@ -1,5 +1,10 @@
 <?php
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
+
 add_shortcode('wpv-next-disco', 'next_disco');
 function next_disco(){
 	$next_post = get_next_post();

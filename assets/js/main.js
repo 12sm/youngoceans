@@ -40,26 +40,15 @@ var Roots = {
    }
 
 
-      if ($(window).width() > 992){
-   soundManager.setup({
-  // where to find flash audio SWFs, as needed
-  url: '/assets/js/',
-       debugMode: true,
-          debugFlash: true,
-  onready: function(){
-    playBG();
-      }
-    });
-     }
-
-   function stopPlayer(){
-    window.soundManager.togglePause('bgSound');
-   }
-    $('#stop-player').click(function(evt){
+    $('#stop-player .stop-music').click(function(evt){
       evt.stopImmediatePropagation();
       evt.preventDefault();
-    stopPlayer();
-});
+      window.soundManager.pauseAll();
+     });
+
+    $('#stop-player .start-music').click(function(evt){
+      window.soundManager.resumeAll();
+     });
 
     if ($(window).width() > 777){
       $('.fancypdf').fancybox({
@@ -283,4 +272,3 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
-
