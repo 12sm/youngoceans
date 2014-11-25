@@ -8,7 +8,7 @@
       </div>
       <div id="social" class="col-md-5 col-sm-6 social-nav">
                       <div id="stop-player" class='btn btn-click'><p class='stop-music'>Silence Audio</p><p class="start-music hide">Enable Audio</div>
-
+                      <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:41crVXG3GeS8TmyWEaPZVr&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
           <div class="floatright">
 
     <?php
