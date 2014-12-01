@@ -453,7 +453,10 @@ word-break: break-word;
   -ms-filter: grayscale(70%);
   -o-filter: grayscale(70%);
 }
-
+/* Hides AddThis Popup */
+div#at20mc {
+  display: none;
+}
 /* ==========================================================================
    Photos
    ========================================================================== */
