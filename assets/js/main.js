@@ -213,10 +213,11 @@ resources: {
 
  test: {
     init: function(){
+      console.log('test');
       $('.blog-img').imgLiquid({verticalAlign: 'top'});
     }
   },
-  
+
   // About us page, note the change from about-us to about_us.
   post_type_archive_videos: {
     init: function() {
