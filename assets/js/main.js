@@ -26,6 +26,8 @@ var Roots = {
   common: { 
     init: function() {
 
+      $('.blog-img').imgLiquid({verticalAlign: 'top'});
+      
       if ($(window).width() < 778){
       
        $('.fancyvid').click(function(){
